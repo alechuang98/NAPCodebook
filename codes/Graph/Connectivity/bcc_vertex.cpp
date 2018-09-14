@@ -1,9 +1,9 @@
 struct BccVertex {
   int n,nBcc,step,root,dfn[MXN],low[MXN];
   vector<int> E[MXN], ap;
-  vector<pii> bcc[MXN];
+  vector<PII> bcc[MXN];
   int top;
-  pii stk[MXN];
+  PII stk[MXN];
   void init(int _n) {
     n = _n;
     nBcc = step = 0;
@@ -27,20 +27,20 @@ struct BccVertex {
           do {
             assert(top > 0);
             bcc[nBcc].PB(stk[--top]);
-          } while (stk[top] != pii(u,v));
+          } while (stk[top] != PII(u,v));
           nBcc++;
         }
         low[u] = min(low[u], low[v]);
       } else {
-        if (dfn[v] < dfn[u]) stk[top++] = pii(u,v);
+        if (dfn[v] < dfn[u]) stk[top++] = PII(u,v);
         low[u] = min(low[u],dfn[v]);
       }
     }
     if (u == root && son > 1) ap.PB(u);
   }
   // return the edges of each bcc;
-  vector<vector<pii>> solve() {
-    vector<vector<pii>> res;
+  vector<vector<PII>> solve() {
+    vector<vector<PII>> res;
     for (int i=0; i<n; i++) {
       dfn[i] = low[i] = -1;
     }
@@ -52,7 +52,10 @@ struct BccVertex {
         DFS(i,i);
       }
     }
-    REP(i,nBcc) res.PB(bcc[i]);
+    for(int i = 0; i < nBcc; i ++){
+		res.PB(bcc[i]);
+		bcc[i].clear();
+	}
     return res;
   }
 }graph;

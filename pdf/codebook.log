@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2018.9.1)  4 SEP 2018 22:47
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2018.9.1)  15 SEP 2018 00:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1345,18 +1345,19 @@ p)
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Maximum_Clique/Maximum_Cli
 que.cpp)
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/MinMeanCycle/MinMeanCycle.
-cpp) (/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Flow/dinic.cpp
-[5]) (/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Flow/CostFlow.cpp)
+cpp) [5] (/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Flow/dinic.cpp)
+(/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Flow/CostFlow.cpp)
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Matching/Borrowed_General_
 Graph_Matching.cpp [6])
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Matching/Minimum_General_W
-eighted_Matching.cpp)
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Math/ax+by=gcd.cpp [7])
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Math/fft.cpp)
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Math/theorem.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
+(/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Matching/Minimum_General_W
+eighted_Matching.cpp)
+(/home/alec/Documents/nWaCodebook/pdf/../codes/Math/ax+by=gcd.cpp [7])
+(/home/alec/Documents/nWaCodebook/pdf/../codes/Math/linear_sieve.cpp)
+(/home/alec/Documents/nWaCodebook/pdf/../codes/Math/fft.cpp)
+(/home/alec/Documents/nWaCodebook/pdf/../codes/Math/theorem.tex
 Underfull \hbox (badness 10000) in paragraph at lines 19--32
 
  []
@@ -1378,29 +1379,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--32
 cles/Intersection_of_two_circles.cpp)
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Geometry/Intersection_of_two_lin
 es/Intersection_of_two_lines.cpp)
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Geometry/Circle_Cover.cpp)
+(/home/alec/Documents/nWaCodebook/pdf/../codes/Geometry/Circle_Cover.cpp
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9])
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Geometry/Half_plane_intersection
-/half_plane_intersection.cpp [9])
+/half_plane_intersection.cpp)
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Geometry/N_dao/Point.cpp)
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Geometry/N_dao/inter.cpp)
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Geometry/N_dao/convex_hull.cpp)
+(/home/alec/Documents/nWaCodebook/pdf/../codes/Geometry/N_dao/convex_hull.cpp
+[10])
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Geometry/Minimum_covering_circle
-/mcc.cpp [10])
+/mcc.cpp)
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Stringology/Suffix_Array/Suffix_
 Array.cpp)
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Stringology/KMP/kmp.cpp)
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Stringology/Z_Value/zvalue.cpp)
+(/home/alec/Documents/nWaCodebook/pdf/../codes/Stringology/Z_Value/zvalue.cpp
+[11])
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Stringology/smallest_rotation/sm
-allest_rotation.cpp) [11] (/home/alec/Documents/nWaCodebook/pdf/codebook.aux) )
- 
+allest_rotation.cpp) [12
+
+] (/home/alec/Documents/nWaCodebook/pdf/codebook.aux) ) 
 Here is how much of TeX's memory you used:
- 23602 strings out of 493007
- 453914 string characters out of 6136720
- 1159357 words of memory out of 5000000
- 27240 multiletter control sequences out of 15000+600000
+ 23621 strings out of 493007
+ 454220 string characters out of 6136720
+ 1174357 words of memory out of 5000000
+ 27256 multiletter control sequences out of 15000+600000
  531779 words of font info for 55 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  46i,12n,74p,10409b,1604s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /home/alec/Documents/nWaCodebook/pdf/codebook.pdf (11 pages).
+Output written on /home/alec/Documents/nWaCodebook/pdf/codebook.pdf (12 pages).
 

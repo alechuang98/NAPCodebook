@@ -4,8 +4,12 @@ int ori(Point s, Point e, Point P){
   else if(val > 0) return 1;
   else return -1;
 }
+bool cmp(Point a, Point b){
+	if(a.x != b.x) return a.x < b.x;
+	return a.y < b.y;
+}
 vector<Point> convex_hull(vector<Point> pt){
-  sort(pt.begin(), pt.end());
+  sort(pt.begin(), pt.end(), cmp);
   int top=0;
   vector<Point> stk(2*pt.size());
   for (int i=0; i<(int)pt.size(); i++){
