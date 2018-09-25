@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 #define F first
 #define S second
-#define PB push_back
+#define pb push_back
 #define MP make_pair
 #define ALL(x) begin(x),end(x)
 #define SZ(x) ((int)(x).size())
