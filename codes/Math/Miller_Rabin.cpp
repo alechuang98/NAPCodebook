@@ -5,6 +5,16 @@
 // 2, 325, 9375, 28178, 450775, 9780504, 1795265022
 // Make sure testing integer is in range [2, n−2] if
 // you want to use magic.
+long long mult(LL a, LL b, LL mod){
+	a %= mod, b %= mod;
+	LL res = 0;
+	while(b){
+		if(b & 1) res = (res + a) % mod;
+		b >>= 1;
+		a = (a<<1)%mod;
+	}
+	return res;
+}
 long long power(long long x,long long p,long long mod){
 	long long s=1,m=x;
 	while(p) {
