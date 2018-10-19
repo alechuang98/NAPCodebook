@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2018.10.12)  19 OCT 2018 20:58
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2018.10.12)  19 OCT 2018 21:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1336,17 +1336,20 @@ _bt.cpp)
 intSet.cpp)
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Data_Structure/Balance_Tree/trea
 p_pointer.cpp [3])
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/HeavyLightDecomp.cpp)
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Connectivity/bcc_edge.cpp)
 
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Connectivity/bcc_vertex.cp
-p [4])
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Connectivity/kosaraju.cpp)
+p)
+(/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Connectivity/kosaraju.cpp
+[4]) (/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/HeavyLightDecomp.cpp)
 
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Maximum_Clique/Maximum_Cli
 que.cpp)
+Underfull \vbox (badness 1117) has occurred while \output is active []
+
+ [5]
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/MinMeanCycle/MinMeanCycle.
-cpp [5]) (/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Flow/dinic.cpp)
+cpp) (/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Flow/dinic.cpp)
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Flow/CostFlow.cpp [6])
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Matching/Kuhn_Munkres.cpp)
 
@@ -1362,7 +1365,7 @@ eighted_Matching.cpp)
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Math/fft.cpp [8])
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Math/fft_eddy.cpp)
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Math/Gauss_Elimination.cpp)
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Math/Matrix.cpp) [9]
+(/home/alec/Documents/nWaCodebook/pdf/../codes/Math/Matrix.cpp [9])
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Math/Miller_Rabin.cpp)
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Math/PollardRho.cpp)
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Math/theorem.tex
@@ -1402,17 +1405,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Stringology/Suffix_Array/Suffix_
 Array.cpp)
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Stringology/KMP/kmp.cpp)
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Stringology/Z_Value/zvalue.cpp)
-[13]
+(/home/alec/Documents/nWaCodebook/pdf/../codes/Stringology/Z_Value/zvalue.cpp
+[13])
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Stringology/smallest_rotation/sm
 allest_rotation.cpp) [14
 
 ] (/home/alec/Documents/nWaCodebook/pdf/codebook.aux) ) 
 Here is how much of TeX's memory you used:
- 23726 strings out of 493007
- 456094 string characters out of 6136718
- 1189355 words of memory out of 5000000
- 27338 multiletter control sequences out of 15000+600000
+ 23724 strings out of 493007
+ 456076 string characters out of 6136718
+ 1179355 words of memory out of 5000000
+ 27336 multiletter control sequences out of 15000+600000
  531779 words of font info for 55 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  46i,12n,74p,10409b,1604s stack positions out of 5000i,500n,10000p,200000b,80000s

@@ -183,9 +183,6 @@ INPUT /home/alec/Documents/nWaCodebook/pdf/../codes/Data_Structure/DisjointSet/D
 INPUT /home/alec/Documents/nWaCodebook/pdf/../codes/Data_Structure/Balance_Tree/treap_pointer.cpp
 INPUT /home/alec/Documents/nWaCodebook/pdf/../codes/Data_Structure/Balance_Tree/treap_pointer.cpp
 INPUT /home/alec/Documents/nWaCodebook/pdf/../codes/Data_Structure/Balance_Tree/treap_pointer.cpp
-INPUT /home/alec/Documents/nWaCodebook/pdf/../codes/Graph/HeavyLightDecomp.cpp
-INPUT /home/alec/Documents/nWaCodebook/pdf/../codes/Graph/HeavyLightDecomp.cpp
-INPUT /home/alec/Documents/nWaCodebook/pdf/../codes/Graph/HeavyLightDecomp.cpp
 INPUT /home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Connectivity/bcc_edge.cpp
 INPUT /home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Connectivity/bcc_edge.cpp
 INPUT /home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Connectivity/bcc_edge.cpp
@@ -195,6 +192,9 @@ INPUT /home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Connectivity/bcc_verte
 INPUT /home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Connectivity/kosaraju.cpp
 INPUT /home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Connectivity/kosaraju.cpp
 INPUT /home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Connectivity/kosaraju.cpp
+INPUT /home/alec/Documents/nWaCodebook/pdf/../codes/Graph/HeavyLightDecomp.cpp
+INPUT /home/alec/Documents/nWaCodebook/pdf/../codes/Graph/HeavyLightDecomp.cpp
+INPUT /home/alec/Documents/nWaCodebook/pdf/../codes/Graph/HeavyLightDecomp.cpp
 INPUT /home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Maximum_Clique/Maximum_Clique.cpp
 INPUT /home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Maximum_Clique/Maximum_Clique.cpp
 INPUT /home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Maximum_Clique/Maximum_Clique.cpp

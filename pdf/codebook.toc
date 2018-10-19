@@ -8,13 +8,13 @@
 \contentsline {subsection}{\numberline {2.4}extc\_balance\_tree}{3}
 \contentsline {subsection}{\numberline {2.5}Disjoint Set}{3}
 \contentsline {subsection}{\numberline {2.6}Treap}{3}
-\contentsline {subsection}{\numberline {2.7}Heavy Light Decomposition}{4}
 \contentsline {section}{\numberline {3}Graph}{4}
 \contentsline {subsection}{\numberline {3.1}BCC Edge}{4}
 \contentsline {subsection}{\numberline {3.2}BCC Vertex}{4}
-\contentsline {subsection}{\numberline {3.3}Strongly Connected Components}{5}
-\contentsline {subsection}{\numberline {3.4}Maximum Clique}{5}
-\contentsline {subsection}{\numberline {3.5}MinimumMeanCycle}{5}
+\contentsline {subsection}{\numberline {3.3}Strongly Connected Components}{4}
+\contentsline {subsection}{\numberline {3.4}Heavy Light Decomposition}{5}
+\contentsline {subsection}{\numberline {3.5}Maximum Clique}{5}
+\contentsline {subsection}{\numberline {3.6}MinimumMeanCycle}{6}
 \contentsline {section}{\numberline {4}Flow}{6}
 \contentsline {subsection}{\numberline {4.1}Dinic}{6}
 \contentsline {subsection}{\numberline {4.2}Cost Flow}{6}
