@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2018.9.1)  15 SEP 2018 00:12
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2018.10.12)  19 OCT 2018 20:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1336,27 +1336,35 @@ _bt.cpp)
 intSet.cpp)
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Data_Structure/Balance_Tree/trea
 p_pointer.cpp [3])
+(/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/HeavyLightDecomp.cpp)
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Connectivity/bcc_edge.cpp)
 
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Connectivity/bcc_vertex.cp
-p)
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Connectivity/kosaraju.cpp
-[4])
+p [4])
+(/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Connectivity/kosaraju.cpp)
+
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Maximum_Clique/Maximum_Cli
 que.cpp)
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/MinMeanCycle/MinMeanCycle.
-cpp) [5] (/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Flow/dinic.cpp)
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Flow/CostFlow.cpp)
+cpp [5]) (/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Flow/dinic.cpp)
+(/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Flow/CostFlow.cpp [6])
+(/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Matching/Kuhn_Munkres.cpp)
+
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Matching/Borrowed_General_
-Graph_Matching.cpp [6])
+Graph_Matching.cpp
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+ [7])
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Matching/Minimum_General_W
 eighted_Matching.cpp)
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Math/ax+by=gcd.cpp [7])
+(/home/alec/Documents/nWaCodebook/pdf/../codes/Math/ax+by=gcd.cpp)
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Math/linear_sieve.cpp)
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Math/fft.cpp)
+(/home/alec/Documents/nWaCodebook/pdf/../codes/Math/fft.cpp [8])
+(/home/alec/Documents/nWaCodebook/pdf/../codes/Math/fft_eddy.cpp)
+(/home/alec/Documents/nWaCodebook/pdf/../codes/Math/Gauss_Elimination.cpp)
+(/home/alec/Documents/nWaCodebook/pdf/../codes/Math/Matrix.cpp) [9]
+(/home/alec/Documents/nWaCodebook/pdf/../codes/Math/Miller_Rabin.cpp)
+(/home/alec/Documents/nWaCodebook/pdf/../codes/Math/PollardRho.cpp)
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Math/theorem.tex
 Underfull \hbox (badness 10000) in paragraph at lines 19--32
 
@@ -1374,7 +1382,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--32
 
 )
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Geometry/Point_operators/pdd.cpp
-[8])
+[10])
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Geometry/Intersection_of_two_cir
 cles/Intersection_of_two_circles.cpp)
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Geometry/Intersection_of_two_lin
@@ -1382,32 +1390,32 @@ es/Intersection_of_two_lines.cpp)
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Geometry/Circle_Cover.cpp
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9])
+ [11])
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Geometry/Half_plane_intersection
 /half_plane_intersection.cpp)
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Geometry/N_dao/Point.cpp)
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Geometry/N_dao/inter.cpp)
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Geometry/N_dao/convex_hull.cpp
-[10])
+[12])
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Geometry/Minimum_covering_circle
 /mcc.cpp)
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Stringology/Suffix_Array/Suffix_
 Array.cpp)
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Stringology/KMP/kmp.cpp)
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Stringology/Z_Value/zvalue.cpp
-[11])
+(/home/alec/Documents/nWaCodebook/pdf/../codes/Stringology/Z_Value/zvalue.cpp)
+[13]
 (/home/alec/Documents/nWaCodebook/pdf/../codes/Stringology/smallest_rotation/sm
-allest_rotation.cpp) [12
+allest_rotation.cpp) [14
 
 ] (/home/alec/Documents/nWaCodebook/pdf/codebook.aux) ) 
 Here is how much of TeX's memory you used:
- 23621 strings out of 493007
- 454220 string characters out of 6136720
- 1174357 words of memory out of 5000000
- 27256 multiletter control sequences out of 15000+600000
+ 23726 strings out of 493007
+ 456094 string characters out of 6136718
+ 1189355 words of memory out of 5000000
+ 27338 multiletter control sequences out of 15000+600000
  531779 words of font info for 55 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  46i,12n,74p,10409b,1604s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /home/alec/Documents/nWaCodebook/pdf/codebook.pdf (12 pages).
+Output written on /home/alec/Documents/nWaCodebook/pdf/codebook.pdf (14 pages).
 

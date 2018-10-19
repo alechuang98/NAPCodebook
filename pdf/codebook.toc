@@ -8,39 +8,46 @@
 \contentsline {subsection}{\numberline {2.4}extc\_balance\_tree}{3}
 \contentsline {subsection}{\numberline {2.5}Disjoint Set}{3}
 \contentsline {subsection}{\numberline {2.6}Treap}{3}
+\contentsline {subsection}{\numberline {2.7}Heavy Light Decomposition}{4}
 \contentsline {section}{\numberline {3}Graph}{4}
 \contentsline {subsection}{\numberline {3.1}BCC Edge}{4}
 \contentsline {subsection}{\numberline {3.2}BCC Vertex}{4}
-\contentsline {subsection}{\numberline {3.3}Strongly Connected Components}{4}
+\contentsline {subsection}{\numberline {3.3}Strongly Connected Components}{5}
 \contentsline {subsection}{\numberline {3.4}Maximum Clique}{5}
 \contentsline {subsection}{\numberline {3.5}MinimumMeanCycle}{5}
 \contentsline {section}{\numberline {4}Flow}{6}
 \contentsline {subsection}{\numberline {4.1}Dinic}{6}
 \contentsline {subsection}{\numberline {4.2}Cost Flow}{6}
-\contentsline {subsection}{\numberline {4.3}Maximum Simple Graph Matching}{6}
-\contentsline {subsection}{\numberline {4.4}Minimum Weight Matching (Clique version)}{7}
-\contentsline {section}{\numberline {5}Math}{7}
-\contentsline {subsection}{\numberline {5.1}ax+by=gcd}{7}
+\contentsline {subsection}{\numberline {4.3}Kuhn Munkres}{7}
+\contentsline {subsection}{\numberline {4.4}Maximum Simple Graph Matching}{7}
+\contentsline {subsection}{\numberline {4.5}Minimum Weight Matching (Clique version)}{8}
+\contentsline {section}{\numberline {5}Math}{8}
+\contentsline {subsection}{\numberline {5.1}ax+by=gcd}{8}
 \contentsline {subsection}{\numberline {5.2}Segmented Sieve}{8}
 \contentsline {subsection}{\numberline {5.3}Fast Fourier Transform}{8}
-\contentsline {subsection}{\numberline {5.4}Theorem}{8}
-\contentsline {subsubsection}{\numberline {5.4.1}Lucas\textquotesingle \ Theorem}{8}
-\contentsline {subsubsection}{\numberline {5.4.2}Sum of Two Squares Thm (Legendre)}{8}
-\contentsline {subsubsection}{\numberline {5.4.3}Difference of D1-D3 Thm}{8}
-\contentsline {subsubsection}{\numberline {5.4.4}Krush–Kuhn–Tucker Conditions}{8}
-\contentsline {subsubsection}{\numberline {5.4.5}Chinese remainder theorem}{8}
-\contentsline {section}{\numberline {6}Geometry}{8}
-\contentsline {subsection}{\numberline {6.1}Point operators}{8}
-\contentsline {subsection}{\numberline {6.2}Intersection of two circles}{9}
-\contentsline {subsection}{\numberline {6.3}Intersection of two lines}{9}
-\contentsline {subsection}{\numberline {6.4}Circle cover}{9}
-\contentsline {subsection}{\numberline {6.5}Half Plane Intersection}{10}
-\contentsline {subsection}{\numberline {6.6}dao point}{10}
-\contentsline {subsection}{\numberline {6.7}dao inter}{10}
-\contentsline {subsection}{\numberline {6.8}dao 2D convex hull}{10}
-\contentsline {subsection}{\numberline {6.9}Minimum Covering Circle}{11}
-\contentsline {section}{\numberline {7}Stringology}{11}
-\contentsline {subsection}{\numberline {7.1}Suffix Array}{11}
-\contentsline {subsection}{\numberline {7.2}KMP}{11}
-\contentsline {subsection}{\numberline {7.3}Z value}{11}
-\contentsline {subsection}{\numberline {7.4}Lexicographically Smallest Rotation}{12}
+\contentsline {subsection}{\numberline {5.4}FFT (Pec.ver)}{9}
+\contentsline {subsection}{\numberline {5.5}Gauss Elimination}{9}
+\contentsline {subsection}{\numberline {5.6}Matrix}{9}
+\contentsline {subsection}{\numberline {5.7}Miller Rabin}{10}
+\contentsline {subsection}{\numberline {5.8}Pollard Rho}{10}
+\contentsline {subsection}{\numberline {5.9}Theorem}{10}
+\contentsline {subsubsection}{\numberline {5.9.1}Lucas\textquotesingle \ Theorem}{10}
+\contentsline {subsubsection}{\numberline {5.9.2}Sum of Two Squares Thm (Legendre)}{10}
+\contentsline {subsubsection}{\numberline {5.9.3}Difference of D1-D3 Thm}{10}
+\contentsline {subsubsection}{\numberline {5.9.4}Krush–Kuhn–Tucker Conditions}{10}
+\contentsline {subsubsection}{\numberline {5.9.5}Chinese remainder theorem}{10}
+\contentsline {section}{\numberline {6}Geometry}{10}
+\contentsline {subsection}{\numberline {6.1}Point operators}{10}
+\contentsline {subsection}{\numberline {6.2}Intersection of two circles}{11}
+\contentsline {subsection}{\numberline {6.3}Intersection of two lines}{11}
+\contentsline {subsection}{\numberline {6.4}Circle cover}{11}
+\contentsline {subsection}{\numberline {6.5}Half Plane Intersection}{12}
+\contentsline {subsection}{\numberline {6.6}dao point}{12}
+\contentsline {subsection}{\numberline {6.7}dao inter}{12}
+\contentsline {subsection}{\numberline {6.8}dao 2D convex hull}{12}
+\contentsline {subsection}{\numberline {6.9}Minimum Covering Circle}{13}
+\contentsline {section}{\numberline {7}Stringology}{13}
+\contentsline {subsection}{\numberline {7.1}Suffix Array}{13}
+\contentsline {subsection}{\numberline {7.2}KMP}{13}
+\contentsline {subsection}{\numberline {7.3}Z value}{13}
+\contentsline {subsection}{\numberline {7.4}Lexicographically Smallest Rotation}{14}
