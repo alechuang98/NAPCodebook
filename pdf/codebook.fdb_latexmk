@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1539954364 "codebook.tex" "/home/alec/Documents/nWaCodebook/pdf/codebook.pdf" "codebook" 1539954368
+["pdflatex"] 1539954882 "codebook.tex" "/home/alec/Documents/nWaCodebook/pdf/codebook.pdf" "codebook" 1539954887
   "../codes/Basic/default.cpp" 1537927396 519 d6642d7f2af6d1f4a94792921afb717a ""
   "../codes/Basic/vimrc" 1537870118 317 eb35d99a145704a494a48b77ee1f74f0 ""
   "../codes/Data_Structure/Balance_Tree/extc_bt.cpp" 1536069488 795 245f48a60c7bb8143f2e8bdcff26c1c6 ""
@@ -8,6 +8,7 @@
   "../codes/Data_Structure/Bigint/Bigint.cpp" 1495487769 4148 ef1d78abb86c20bffe65bf2f51e111b6 ""
   "../codes/Data_Structure/DisjointSet/DisjointSet.cpp" 1495487769 780 fc2c579d54ec452785e64396308e9188 ""
   "../codes/Data_Structure/Heap/extc_heap.cpp" 1495487769 319 fec7e6ea18825647faeffa9199a7986a ""
+  "../codes/Data_Structure/Heavy_Light_Decomposition/Heavy_Pec.cpp" 1539954610 2323 4252344deea80fcccca45925b508d6de ""
   "../codes/Geometry/Circle_Cover.cpp" 1536071671 3520 d284bd19773f0abcdf263d58b6e019b6 ""
   "../codes/Geometry/Half_plane_intersection/half_plane_intersection.cpp" 1495487769 1905 0e4f6dc63bcabc678e9f4143d1f2fd3f ""
   "../codes/Geometry/Intersection_of_two_circles/Intersection_of_two_circles.cpp" 1495487769 393 42f578658b051404fc3ac69fc100021f ""
@@ -42,7 +43,7 @@
   "../codes/Stringology/Z_Value/zvalue.cpp" 1495487769 235 11bfafcea8b14b5ec9ea35404d2bc457 ""
   "../codes/Stringology/smallest_rotation/smallest_rotation.cpp" 1495487769 286 8e63f27a520c5d5800cae073599a7dae ""
   "/etc/texmf/web2c/texmf.cnf" 1535767181 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/alec/Documents/nWaCodebook/pdf/codebook.aux" 1539954368 8908 8953447d3bcd345d968601eac35babea ""
+  "/home/alec/Documents/nWaCodebook/pdf/codebook.aux" 1539954886 9187 d54d43d61792730225c3ce922506d53c ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm" 1480098698 924 9904cf1d39e9767e7a3622f2a125a565 ""
@@ -117,12 +118,12 @@
   "/usr/share/texmf/tex/latex/tipa/t3enc.def" 1414244106 26483 c461a68c34040cb0d96c43e86c012a6d ""
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1539312292 3707006 e045c4297858bdb36e4177e67178f5de ""
-  "codebook.aux" 1539954368 8908 8953447d3bcd345d968601eac35babea ""
-  "codebook.tex" 1539954357 11464 033d4a27cf86cf72118a93fe8030f4c4 ""
-  "codebook.toc" 1539954368 3415 3b06d844f6c05ab21d6c598df926e8d7 ""
+  "codebook.aux" 1539954886 9187 d54d43d61792730225c3ce922506d53c ""
+  "codebook.tex" 1539954876 11594 0ad4160b301f783a8236cd17f5f63de5 ""
+  "codebook.toc" 1539954886 3501 d236d4ea74594fca0d69f9992472c1a8 ""
   (generated)
   "/home/alec/Documents/nWaCodebook/pdf/codebook.log"
-  "/home/alec/Documents/nWaCodebook/pdf/codebook.pdf"
   "codebook.toc"
-  "codebook.aux"
   "codebook.log"
+  "/home/alec/Documents/nWaCodebook/pdf/codebook.pdf"
+  "codebook.aux"
