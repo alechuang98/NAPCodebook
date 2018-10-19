@@ -20,14 +20,20 @@ struct HLD{
 		re[ cntp ] = u;
 		sort(ALL(g[u]), [&](int a, int b){ return siz[a] > siz[b] });
 		bool f = 1;
-		for(int &v : edge[u]) if(v != prt[u][0]){
-			if(f) head[v] = head[u], flag = 0;
+		for(int &v : edge[u]) if(v != prt[0][u]){
+			if(f) head[v] = head[u], f = 0;
 			dfs(v);
-			tr[u] = tr[v]
 		}
 		out[u] = cntp;
 	}
-
+	void addEdge(int u, int v){
+		edge[u].pb(v);
+		edge[v].pb(u);
+	}
+	void init(int _n){
+		n = _n;
+		rep1(i, 1, n+1) edge[i].clear();
+	}
 	void solve(){
 		pre(1, 0);
 		cntp = 0;
