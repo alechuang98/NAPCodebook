@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2018.10.12)  19 OCT 2018 21:14
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2018.10.12)  20 FEB 2019 15:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **codebook.tex
-(/home/alec/Documents/nWaCodebook/pdf/codebook.tex
+(/home/alec/Documents/github/nWaCodebook/pdf/codebook.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -1189,7 +1189,7 @@ Package: xeCJK-listings 2018/02/27 v3.6.1 xeCJK patch file for listings
 \l__xeCJK_listings_max_char_int=\count284
 \l__xeCJK_listings_flag_int=\count285
 )
-(/home/alec/Documents/nWaCodebook/pdf/codebook.aux)
+(/home/alec/Documents/github/nWaCodebook/pdf/codebook.aux)
 \openout1 = `codebook.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
@@ -1285,7 +1285,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 99.
 
 )
-(/home/alec/Documents/nWaCodebook/pdf/codebook.toc
+(/home/alec/Documents/github/nWaCodebook/pdf/codebook.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1317,57 +1317,61 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 . - 'normal' (m/n) with NFSS spec.: <->"[FandolFang-Regular.otf]/OT"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Basic/vimrc)
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Basic/default.cpp)
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Data_Structure/Bigint/Bigint.cpp
-[1
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Basic/vimrc)
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Basic/IncStack.cpp)
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Basic/default.cpp)
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Data_Structure/Bigint/Big
+int.cpp [1
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Data_Structure/Balance_Tree/unor
-dered_hashfunc.cpp [2])
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Data_Structure/Heap/extc_heap.cp
-p)
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Data_Structure/Balance_Tree/extc
-_bt.cpp)
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Data_Structure/Heavy_Light_Decom
-position/Heavy_Pec.cpp)
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Data_Structure/DisjointSet/Disjo
-intSet.cpp [3])
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Data_Structure/Balance_Tree/trea
-p_pointer.cpp)
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Connectivity/bcc_edge.cpp
-[4])
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Connectivity/bcc_vertex.cp
-p)
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Connectivity/kosaraju.cpp)
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/HeavyLightDecomp.cpp
-[5])
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Maximum_Clique/Maximum_Cli
-que.cpp)
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/MinMeanCycle/MinMeanCycle.
-cpp) (/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Flow/dinic.cpp
-[6]) (/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Flow/CostFlow.cpp)
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Matching/Kuhn_Munkres.cpp)
-[7]
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Matching/Borrowed_General_
-Graph_Matching.cpp
-Underfull \vbox (badness 1418) has occurred while \output is active []
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Data_Structure/Balance_Tr
+ee/unordered_hashfunc.cpp [2])
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Data_Structure/Heap/extc_
+heap.cpp)
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Data_Structure/Balance_Tr
+ee/extc_bt.cpp)
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Data_Structure/Heavy_Ligh
+t_Decomposition/Heavy_Pec.cpp [3])
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Data_Structure/DisjointSe
+t/DisjointSet.cpp)
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Data_Structure/Balance_Tr
+ee/treap_pointer.cpp)
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Graph/Connectivity/bcc_ed
+ge.cpp [4])
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Graph/Connectivity/bcc_ve
+rtex.cpp)
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Graph/Connectivity/kosara
+ju.cpp)
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Graph/HeavyLightDecomp.cp
+p [5])
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Graph/Maximum_Clique/Maxi
+mum_Clique.cpp)
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Graph/MinMeanCycle/MinMea
+nCycle.cpp)
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Graph/Flow/dinic.cpp
+[6])
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Graph/Flow/CostFlow.cpp)
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Graph/Matching/Kuhn_Munkr
+es.cpp [7])
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Graph/Matching/Borrowed_G
+eneral_Graph_Matching.cpp)
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Graph/Matching/Minimum_Ge
+neral_Weighted_Matching.cpp [8])
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Math/ax+by=gcd.cpp)
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Math/linear_sieve.cpp)
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Math/fft.cpp)
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Graph/Matching/Minimum_General_W
-eighted_Matching.cpp [8])
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Math/ax+by=gcd.cpp)
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Math/linear_sieve.cpp)
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Math/fft.cpp)
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Math/fft_eddy.cpp [9])
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Math/Gauss_Elimination.cpp)
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Math/Matrix.cpp)
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Math/Miller_Rabin.cpp)
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Math/PollardRho.cpp [10])
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Math/theorem.tex
+ [9]
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Math/fft_eddy.cpp)
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Math/Gauss_Elimination.cp
+p) (/home/alec/Documents/github/nWaCodebook/pdf/../codes/Math/Matrix.cpp)
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Math/Miller_Rabin.cpp)
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Math/PollardRho.cpp
+[10]) (/home/alec/Documents/github/nWaCodebook/pdf/../codes/Math/theorem.tex
 Underfull \hbox (badness 10000) in paragraph at lines 19--32
 
  []
@@ -1383,39 +1387,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--32
  []
 
 )
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Geometry/Point_operators/pdd.cpp
-)
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Geometry/Intersection_of_two_cir
-cles/Intersection_of_two_circles.cpp)
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Geometry/Intersection_of_two_lin
-es/Intersection_of_two_lines.cpp)
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Geometry/Circle_Cover.cpp
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Geometry/Point_operators/
+pdd.cpp)
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Geometry/Intersection_of_
+two_circles/Intersection_of_two_circles.cpp)
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Geometry/Intersection_of_
+two_lines/Intersection_of_two_lines.cpp)
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Geometry/Circle_Cover.cpp
 [11]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Geometry/Half_plane_intersection
-/half_plane_intersection.cpp [12])
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Geometry/N_dao/Point.cpp)
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Geometry/N_dao/inter.cpp)
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Geometry/N_dao/convex_hull.cpp)
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Geometry/Minimum_covering_circle
-/mcc.cpp)
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Stringology/Suffix_Array/Suffix_
-Array.cpp [13])
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Stringology/KMP/kmp.cpp)
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Stringology/Z_Value/zvalue.cpp)
-(/home/alec/Documents/nWaCodebook/pdf/../codes/Stringology/smallest_rotation/sm
-allest_rotation.cpp) [14] (/home/alec/Documents/nWaCodebook/pdf/codebook.aux) )
- 
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Geometry/Half_plane_inter
+section/half_plane_intersection.cpp [12])
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Geometry/N_dao/Point.cpp)
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Geometry/N_dao/inter.cpp)
+
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Geometry/N_dao/convex_hul
+l.cpp)
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Geometry/Minimum_covering
+_circle/mcc.cpp) [13]
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Stringology/Suffix_Array/
+Suffix_Array.cpp)
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Stringology/Suffix_Array/
+sais_twt514.cpp)
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Stringology/Automata/Aho-
+Corasick.cpp [14])
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Stringology/KMP/kmp.cpp)
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Stringology/Z_Value/zvalu
+e.cpp)
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Stringology/Z_Value/zvalu
+e_palindrome.cpp)
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Stringology/smallest_rota
+tion/smallest_rotation.cpp)
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Stringology/Automata/SAM.
+cpp) [15] (/home/alec/Documents/github/nWaCodebook/pdf/codebook.aux) ) 
 Here is how much of TeX's memory you used:
- 23751 strings out of 493007
- 456628 string characters out of 6136718
- 1326355 words of memory out of 5000000
- 27358 multiletter control sequences out of 15000+600000
+ 23839 strings out of 493007
+ 459160 string characters out of 6136718
+ 1300355 words of memory out of 5000000
+ 27429 multiletter control sequences out of 15000+600000
  531779 words of font info for 55 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  46i,12n,74p,10409b,1604s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /home/alec/Documents/nWaCodebook/pdf/codebook.pdf (14 pages).
-
+Output written on /home/alec/Documents/github/nWaCodebook/pdf/codebook.pdf (15 
+pages).

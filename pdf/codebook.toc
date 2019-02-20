@@ -1,13 +1,14 @@
 \contentsline {section}{\numberline {1}Basic}{1}
 \contentsline {subsection}{\numberline {1.1}vimrc}{1}
-\contentsline {subsection}{\numberline {1.2}Default Code}{1}
+\contentsline {subsection}{\numberline {1.2}IncreaseStackSize}{1}
+\contentsline {subsection}{\numberline {1.3}Default Code}{1}
 \contentsline {section}{\numberline {2}Data Structure}{1}
 \contentsline {subsection}{\numberline {2.1}Bigint}{1}
 \contentsline {subsection}{\numberline {2.2}unordered\_map}{2}
 \contentsline {subsection}{\numberline {2.3}extc\_heap}{3}
 \contentsline {subsection}{\numberline {2.4}extc\_balance\_tree}{3}
 \contentsline {subsection}{\numberline {2.5}Heavy Light Decomposition(PEC ver.)}{3}
-\contentsline {subsection}{\numberline {2.6}Disjoint Set}{3}
+\contentsline {subsection}{\numberline {2.6}Disjoint Set}{4}
 \contentsline {subsection}{\numberline {2.7}Treap}{4}
 \contentsline {section}{\numberline {3}Graph}{4}
 \contentsline {subsection}{\numberline {3.1}BCC Edge}{4}
@@ -26,7 +27,7 @@
 \contentsline {subsection}{\numberline {5.1}ax+by=gcd}{9}
 \contentsline {subsection}{\numberline {5.2}Segmented Sieve}{9}
 \contentsline {subsection}{\numberline {5.3}Fast Fourier Transform}{9}
-\contentsline {subsection}{\numberline {5.4}FFT (Pec.ver)}{9}
+\contentsline {subsection}{\numberline {5.4}FFT (Pec.ver)}{10}
 \contentsline {subsection}{\numberline {5.5}Gauss Elimination}{10}
 \contentsline {subsection}{\numberline {5.6}Matrix}{10}
 \contentsline {subsection}{\numberline {5.7}Miller Rabin}{10}
@@ -47,8 +48,12 @@
 \contentsline {subsection}{\numberline {6.7}dao inter}{13}
 \contentsline {subsection}{\numberline {6.8}dao 2D convex hull}{13}
 \contentsline {subsection}{\numberline {6.9}Minimum Covering Circle}{13}
-\contentsline {section}{\numberline {7}Stringology}{13}
-\contentsline {subsection}{\numberline {7.1}Suffix Array}{13}
-\contentsline {subsection}{\numberline {7.2}KMP}{14}
-\contentsline {subsection}{\numberline {7.3}Z value}{14}
-\contentsline {subsection}{\numberline {7.4}Lexicographically Smallest Rotation}{14}
+\contentsline {section}{\numberline {7}Stringology}{14}
+\contentsline {subsection}{\numberline {7.1}Suffix Array}{14}
+\contentsline {subsection}{\numberline {7.2}Suffix Array (SAIS TWT514)}{14}
+\contentsline {subsection}{\numberline {7.3}Aho-Corasick Algorithm}{14}
+\contentsline {subsection}{\numberline {7.4}KMP}{15}
+\contentsline {subsection}{\numberline {7.5}Z value}{15}
+\contentsline {subsection}{\numberline {7.6}Z value (palindrome ver.)}{15}
+\contentsline {subsection}{\numberline {7.7}Lexicographically Smallest Rotation}{15}
+\contentsline {subsection}{\numberline {7.8}Suffix Automaton}{15}
