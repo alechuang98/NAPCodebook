@@ -32,35 +32,35 @@
 int mu[MX],p_tbl[MX];
 vector<int> primes;
 void sieve() {
-  mu[1] = p_tbl[1] = 1;
-  for (int i=2; i<MX; i++) {
-    if (!p_tbl[i]) {
-      p_tbl[i] = i;
-      primes.PB(i);
-      mu[i] = -1;
-    }
-    for (auto p : primes) {
-      int x = i*p;
-      if (x >= M) break;
-      p_tbl[x] = p;
-      mu[x] = -mu[i];
-      if (i%p==0) {
-        mu[x] = 0;
-        break;
-      }
-    }
-  }
+	mu[1] = p_tbl[1] = 1;
+	for (int i=2; i<MX; i++) {
+		if (!p_tbl[i]) {
+			p_tbl[i] = i;
+			primes.PB(i);
+			mu[i] = -1;
+		}
+		for (auto p : primes) {
+			int x = i*p;
+			if (x >= M) break;
+			p_tbl[x] = p;
+			mu[x] = -mu[i];
+			if (i%p==0) {
+				mu[x] = 0;
+				break;
+			}
+		}
+	}
 }
 
 vector<int> factor(int x) {
-  vector<int> fac{1};
-  while (x > 1) {
-    int fn=SZ(fac), p=p_tbl[x], pos=0;
-    while (x%p == 0) {
-      x /= p;
-      for (int i=0; i<fn; i++)
-        fac.PB(fac[pos++]*p);
-    }
-  }
-  return fac;
+	vector<int> fac{1};
+	while (x > 1) {
+		int fn=SZ(fac), p=p_tbl[x], pos=0;
+		while (x%p == 0) {
+			x /= p;
+			for (int i=0; i<fn; i++)
+				fac.PB(fac[pos++]*p);
+		}
+	}
+	return fac;
 }

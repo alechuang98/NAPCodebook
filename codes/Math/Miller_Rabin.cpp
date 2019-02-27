@@ -1,14 +1,14 @@
-// n < 4,759,123,141        3 :  2, 7, 61
-// n < 1,122,004,669,633    4 :  2, 13, 23, 1662803
-// n < 3,474,749,660,383          6 :  pirmes <= 13
-// n < 2^64                       7 :
+// n < 4,759,123,141				3 :  2, 7, 61
+// n < 1,122,004,669,633		4 :  2, 13, 23, 1662803
+// n < 3,474,749,660,383					6 :  pirmes <= 13
+// n < 2^64												7 :
 // 2, 325, 9375, 28178, 450775, 9780504, 1795265022
 // Make sure testing integer is in range [2, n−2] if
 // you want to use magic.
-long long mult(LL a, LL b, LL mod){
+long long mult(LL a, LL b, LL mod) {
 	a %= mod, b %= mod;
 	LL res = 0;
-	while(b){
+	while (b) {
 		if(b & 1) res = (res + a) % mod;
 		b >>= 1;
 		a = (a<<1)%mod;
@@ -17,7 +17,7 @@ long long mult(LL a, LL b, LL mod){
 }
 long long power(long long x,long long p,long long mod){
 	long long s=1,m=x;
-	while(p) {
+	while (p) {
 		if(p&1) s=mult(s,m,mod);
 		p>>=1;
 		m=mult(m,m,mod);
@@ -26,7 +26,7 @@ long long power(long long x,long long p,long long mod){
 }
 bool witness(long long a,long long n,long long u,int t){
 	long long x=power(a,u,n);
-	for(int i=0;i<t;i++) {
+	for(int i = 0;i < t; i++) {
 		long long nx=mult(x,x,n);
 		if(nx==1&&x!=1&&x!=n-1) return 1;
 		x=nx;
