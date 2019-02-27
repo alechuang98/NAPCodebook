@@ -5,72 +5,79 @@
 \contentsline {section}{\numberline {2}Data Structure}{1}
 \contentsline {subsection}{\numberline {2.1}extc\_heap}{1}
 \contentsline {subsection}{\numberline {2.2}extc\_balance\_tree}{2}
-\contentsline {subsection}{\numberline {2.3}Heavy Light Decomposition}{2}
-\contentsline {subsection}{\numberline {2.4}Disjoint Set}{2}
-\contentsline {subsection}{\numberline {2.5}Treap}{2}
-\contentsline {subsection}{\numberline {2.6}Persistent Treap}{2}
-\contentsline {subsection}{\numberline {2.7}Persistent Segment Tree}{3}
+\contentsline {subsection}{\numberline {2.3}Disjoint Set}{2}
+\contentsline {subsection}{\numberline {2.4}Treap}{2}
+\contentsline {subsection}{\numberline {2.5}Persistent Treap}{2}
+\contentsline {subsection}{\numberline {2.6}Persistent Segment Tree}{3}
 \contentsline {section}{\numberline {3}Graph}{3}
-\contentsline {subsection}{\numberline {3.1}BCC Edge}{3}
-\contentsline {subsection}{\numberline {3.2}BCC Vertex}{4}
-\contentsline {subsection}{\numberline {3.3}Strongly Connected Components}{4}
-\contentsline {subsection}{\numberline {3.4}Heavy Light Decomposition}{4}
-\contentsline {subsection}{\numberline {3.5}Maximum Clique}{5}
-\contentsline {subsection}{\numberline {3.6}MinimumMeanCycle}{5}
-\contentsline {section}{\numberline {4}Flow}{5}
-\contentsline {subsection}{\numberline {4.1}Dinic}{5}
-\contentsline {subsection}{\numberline {4.2}Cost Flow}{6}
-\contentsline {subsection}{\numberline {4.3}Kuhn Munkres}{6}
-\contentsline {subsection}{\numberline {4.4}Maximum Simple Graph Matching}{6}
-\contentsline {subsection}{\numberline {4.5}Minimum Weight Matching (Clique version)}{7}
-\contentsline {section}{\numberline {5}Math}{8}
-\contentsline {subsection}{\numberline {5.1}Bigint}{8}
-\contentsline {subsection}{\numberline {5.2}ax+by=gcd}{9}
-\contentsline {subsection}{\numberline {5.3}Linear Prime Sieve}{9}
-\contentsline {subsection}{\numberline {5.4}Bsgs}{9}
-\contentsline {subsection}{\numberline {5.5}Chinese Remainder}{9}
-\contentsline {subsection}{\numberline {5.6}Fast Fourier Transform}{9}
-\contentsline {subsection}{\numberline {5.7}Kth Residue}{10}
-\contentsline {subsection}{\numberline {5.8}Gauss Elimination}{11}
-\contentsline {subsection}{\numberline {5.9}Matrix}{11}
-\contentsline {subsection}{\numberline {5.10}NTT}{11}
-\contentsline {subsection}{\numberline {5.11}NTT(eddy ver.)}{12}
-\contentsline {subsection}{\numberline {5.12}Miller Rabin}{12}
-\contentsline {subsection}{\numberline {5.13}Pollard Rho}{12}
-\contentsline {subsection}{\numberline {5.14}Algorithms about Primes}{12}
-\contentsline {subsection}{\numberline {5.15}Primitive Root}{13}
-\contentsline {subsection}{\numberline {5.16}Pseudoinverse of Square matrix}{13}
-\contentsline {subsection}{\numberline {5.17}Theorem}{13}
-\contentsline {subsubsection}{\numberline {5.17.1}Lucas\textquotesingle \ Theorem}{13}
-\contentsline {subsubsection}{\numberline {5.17.2}Sum of Two Squares Thm (Legendre)}{13}
-\contentsline {subsubsection}{\numberline {5.17.3}Difference of D1-D3 Thm}{14}
-\contentsline {subsubsection}{\numberline {5.17.4}Krush–Kuhn–Tucker Conditions}{14}
-\contentsline {subsubsection}{\numberline {5.17.5}Chinese remainder theorem}{14}
-\contentsline {subsubsection}{\numberline {5.17.6}Stirling Numbers(permutation $|P|=n$ with $k$ cycles)}{14}
-\contentsline {subsubsection}{\numberline {5.17.7}Stirling Numbers(Partition $n$ elements into $k$ non-empty set)}{14}
-\contentsline {subsubsection}{\numberline {5.17.8}Pick’s Theorem}{14}
-\contentsline {subsubsection}{\numberline {5.17.9}Kirchhoff's theorem}{14}
-\contentsline {section}{\numberline {6}Geometry}{14}
-\contentsline {subsection}{\numberline {6.1}Point operators}{14}
-\contentsline {subsection}{\numberline {6.2}Intersection of two circles}{14}
-\contentsline {subsection}{\numberline {6.3}Intersection of two lines}{14}
-\contentsline {subsection}{\numberline {6.4}Intersection of two segments}{14}
-\contentsline {subsection}{\numberline {6.5}Intersection of circle and line}{14}
-\contentsline {subsection}{\numberline {6.6}Tangent line of two circles}{15}
-\contentsline {subsection}{\numberline {6.7}Circle cover}{15}
-\contentsline {subsection}{\numberline {6.8}Half plane intersection}{15}
-\contentsline {subsection}{\numberline {6.9}Poly union area}{16}
-\contentsline {subsection}{\numberline {6.10}2D Convex hull}{16}
-\contentsline {subsection}{\numberline {6.11}Convex hull trick}{16}
-\contentsline {subsection}{\numberline {6.12}KDTree (Nearest Point)}{17}
-\contentsline {subsection}{\numberline {6.13}Triangle}{17}
-\contentsline {section}{\numberline {7}Stringology}{18}
-\contentsline {subsection}{\numberline {7.1}Suffix Array}{18}
-\contentsline {subsection}{\numberline {7.2}SAIS}{18}
-\contentsline {subsection}{\numberline {7.3}SAM}{19}
-\contentsline {subsection}{\numberline {7.4}Aho-Corasick Algorithm}{19}
-\contentsline {subsection}{\numberline {7.5}KMP}{19}
-\contentsline {subsection}{\numberline {7.6}Z value}{19}
-\contentsline {subsection}{\numberline {7.7}Z value (palindrome ver.)}{19}
-\contentsline {subsection}{\numberline {7.8}Lexicographically Smallest Rotation}{20}
-\contentsline {subsection}{\numberline {7.9}Suffix Automaton}{20}
+\contentsline {subsection}{\numberline {3.1}Heavy Light Decomposition}{3}
+\contentsline {subsection}{\numberline {3.2}Tree center}{4}
+\contentsline {subsection}{\numberline {3.3}BCC Edge}{4}
+\contentsline {subsection}{\numberline {3.4}BCC Vertex}{4}
+\contentsline {subsection}{\numberline {3.5}Strongly Connected Components}{5}
+\contentsline {subsection}{\numberline {3.6}Heavy Light Decomposition}{5}
+\contentsline {subsection}{\numberline {3.7}Maximum Clique}{5}
+\contentsline {subsection}{\numberline {3.8}MinimumMeanCycle}{6}
+\contentsline {subsection}{\numberline {3.9}Dynamic MST}{6}
+\contentsline {subsection}{\numberline {3.10}Kth shortest path}{7}
+\contentsline {section}{\numberline {4}Flow}{8}
+\contentsline {subsection}{\numberline {4.1}Dinic}{8}
+\contentsline {subsection}{\numberline {4.2}Cost Flow}{8}
+\contentsline {subsection}{\numberline {4.3}Kuhn Munkres}{8}
+\contentsline {subsection}{\numberline {4.4}Maximum Simple Graph Matching}{9}
+\contentsline {subsection}{\numberline {4.5}Minimum Weight Matching (Clique version)}{9}
+\contentsline {subsection}{\numberline {4.6}2-Commodity Flow}{10}
+\contentsline {subsection}{\numberline {4.7}Bounded max flow}{11}
+\contentsline {subsection}{\numberline {4.8}ISAP}{11}
+\contentsline {subsection}{\numberline {4.9}Flow Method}{11}
+\contentsline {section}{\numberline {5}Math}{11}
+\contentsline {subsection}{\numberline {5.1}Bigint}{11}
+\contentsline {subsection}{\numberline {5.2}ax+by=gcd}{13}
+\contentsline {subsection}{\numberline {5.3}Linear Prime Sieve}{13}
+\contentsline {subsection}{\numberline {5.4}Bsgs}{13}
+\contentsline {subsection}{\numberline {5.5}Chinese Remainder}{13}
+\contentsline {subsection}{\numberline {5.6}Fast Fourier Transform}{13}
+\contentsline {subsection}{\numberline {5.7}Kth Residue}{14}
+\contentsline {subsection}{\numberline {5.8}Gauss Elimination}{14}
+\contentsline {subsection}{\numberline {5.9}Matrix}{15}
+\contentsline {subsection}{\numberline {5.10}NTT}{15}
+\contentsline {subsection}{\numberline {5.11}NTT(eddy ver.)}{15}
+\contentsline {subsection}{\numberline {5.12}Miller Rabin}{16}
+\contentsline {subsection}{\numberline {5.13}Pollard Rho}{16}
+\contentsline {subsection}{\numberline {5.14}Algorithms about Primes}{16}
+\contentsline {subsection}{\numberline {5.15}Primitive Root}{17}
+\contentsline {subsection}{\numberline {5.16}Pseudoinverse of Square matrix}{17}
+\contentsline {subsection}{\numberline {5.17}Theorem}{17}
+\contentsline {subsubsection}{\numberline {5.17.1}Lucas\textquotesingle \ Theorem}{17}
+\contentsline {subsubsection}{\numberline {5.17.2}Sum of Two Squares Thm (Legendre)}{17}
+\contentsline {subsubsection}{\numberline {5.17.3}Difference of D1-D3 Thm}{17}
+\contentsline {subsubsection}{\numberline {5.17.4}Krush–Kuhn–Tucker Conditions}{17}
+\contentsline {subsubsection}{\numberline {5.17.5}Chinese remainder theorem}{17}
+\contentsline {subsubsection}{\numberline {5.17.6}Stirling Numbers(permutation $|P|=n$ with $k$ cycles)}{17}
+\contentsline {subsubsection}{\numberline {5.17.7}Stirling Numbers(Partition $n$ elements into $k$ non-empty set)}{18}
+\contentsline {subsubsection}{\numberline {5.17.8}Pick’s Theorem}{18}
+\contentsline {subsubsection}{\numberline {5.17.9}Kirchhoff's theorem}{18}
+\contentsline {section}{\numberline {6}Geometry}{18}
+\contentsline {subsection}{\numberline {6.1}Point operators}{18}
+\contentsline {subsection}{\numberline {6.2}Intersection of two circles}{18}
+\contentsline {subsection}{\numberline {6.3}Intersection of two lines}{18}
+\contentsline {subsection}{\numberline {6.4}Intersection of two segments}{18}
+\contentsline {subsection}{\numberline {6.5}Intersection of circle and line}{18}
+\contentsline {subsection}{\numberline {6.6}Tangent line of two circles}{18}
+\contentsline {subsection}{\numberline {6.7}Circle cover}{18}
+\contentsline {subsection}{\numberline {6.8}Half plane intersection}{19}
+\contentsline {subsection}{\numberline {6.9}Poly union area}{19}
+\contentsline {subsection}{\numberline {6.10}2D Convex hull}{20}
+\contentsline {subsection}{\numberline {6.11}Convex hull trick}{20}
+\contentsline {subsection}{\numberline {6.12}KDTree (Nearest Point)}{21}
+\contentsline {subsection}{\numberline {6.13}Triangle}{21}
+\contentsline {section}{\numberline {7}Stringology}{21}
+\contentsline {subsection}{\numberline {7.1}Suffix Array}{21}
+\contentsline {subsection}{\numberline {7.2}SAIS}{22}
+\contentsline {subsection}{\numberline {7.3}SAM}{22}
+\contentsline {subsection}{\numberline {7.4}Aho-Corasick Algorithm}{23}
+\contentsline {subsection}{\numberline {7.5}KMP}{23}
+\contentsline {subsection}{\numberline {7.6}Z value}{23}
+\contentsline {subsection}{\numberline {7.7}Z value (palindrome ver.)}{23}
+\contentsline {subsection}{\numberline {7.8}Lexicographically Smallest Rotation}{23}
+\contentsline {subsection}{\numberline {7.9}Suffix Automaton}{23}
