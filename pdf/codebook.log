@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2018.10.12)  27 FEB 2019 20:22
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2018.10.12)  27 FEB 2019 21:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1430,21 +1430,17 @@ LaTeX Font Warning: Font shape `TU/FandolFang-Regular(0)/m/it' undefined
 1.
 
 [17])
-(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Stringology/Suffix_Array/
-Suffix_Array.cpp)
-(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Stringology/Suffix_Array/
-sais_twt514.cpp)
-(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Stringology/Automata/Aho-
-Corasick.cpp [18])
-(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Stringology/KMP/kmp.cpp)
-(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Stringology/Z_Value/zvalu
-e.cpp)
-(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Stringology/Z_Value/zvalu
-e_palindrome.cpp)
-(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Stringology/smallest_rota
-tion/smallest_rotation.cpp)
-(/home/alec/Documents/github/nWaCodebook/pdf/../codes/Stringology/Automata/SAM.
-cpp [19]) [20
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/String/SuffixArray.cpp)
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/String/SAIS.cpp) [18]
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/String/SAM.cpp)
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/String/Aho-Corasick.cpp)
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/String/KMP.cpp)
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/String/Zvalue.cpp)
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/String/ZvaluePalindrome.c
+pp) [19]
+(/home/alec/Documents/github/nWaCodebook/pdf/../codes/String/SmallestRotation.c
+pp) (/home/alec/Documents/github/nWaCodebook/pdf/../codes/String/SAM.cpp)
+[20
 
 ] (/home/alec/Documents/github/nWaCodebook/pdf/codebook.aux)
 
@@ -1452,8 +1448,8 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 24070 strings out of 493007
- 462830 string characters out of 6136718
+ 24064 strings out of 493007
+ 462232 string characters out of 6136718
  1235355 words of memory out of 5000000
  27642 multiletter control sequences out of 15000+600000
  532187 words of font info for 57 fonts, out of 8000000 for 9000

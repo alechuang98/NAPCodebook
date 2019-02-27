@@ -1,5 +1,22 @@
 const int MAX = 1020304;
 int ct[MAX], he[MAX], rk[MAX], sa[MAX], tsa[MAX], tp[MAX][2];
+/*
+mississippi:
+
+     | sa | he | suffix
+  ---+----+------------
+   0 | 10 |  0 |i
+   1 |  7 |  1 |ippi
+   2 |  4 |  1 |issippi
+   3 |  1 |  4 |ississippi
+   4 |  0 |  0 |mississippi
+   5 |  9 |  0 |pi
+   6 |  8 |  1 |ppi
+   7 |  6 |  0 |sippi
+   8 |  3 |  2 |sissippi
+   9 |  5 |  1 |ssippi
+  10 |  2 |  3 |ssissippi
+*/
 
 void suffix_array(char *ip){
 

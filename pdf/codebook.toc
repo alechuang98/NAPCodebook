@@ -66,10 +66,11 @@
 \contentsline {subsection}{\numberline {6.13}Triangle}{17}
 \contentsline {section}{\numberline {7}Stringology}{18}
 \contentsline {subsection}{\numberline {7.1}Suffix Array}{18}
-\contentsline {subsection}{\numberline {7.2}Suffix Array (SAIS TWT514)}{18}
-\contentsline {subsection}{\numberline {7.3}Aho-Corasick Algorithm}{18}
-\contentsline {subsection}{\numberline {7.4}KMP}{19}
-\contentsline {subsection}{\numberline {7.5}Z value}{19}
-\contentsline {subsection}{\numberline {7.6}Z value (palindrome ver.)}{19}
-\contentsline {subsection}{\numberline {7.7}Lexicographically Smallest Rotation}{19}
-\contentsline {subsection}{\numberline {7.8}Suffix Automaton}{19}
+\contentsline {subsection}{\numberline {7.2}SAIS}{18}
+\contentsline {subsection}{\numberline {7.3}SAM}{19}
+\contentsline {subsection}{\numberline {7.4}Aho-Corasick Algorithm}{19}
+\contentsline {subsection}{\numberline {7.5}KMP}{19}
+\contentsline {subsection}{\numberline {7.6}Z value}{19}
+\contentsline {subsection}{\numberline {7.7}Z value (palindrome ver.)}{19}
+\contentsline {subsection}{\numberline {7.8}Lexicographically Smallest Rotation}{20}
+\contentsline {subsection}{\numberline {7.9}Suffix Automaton}{20}
