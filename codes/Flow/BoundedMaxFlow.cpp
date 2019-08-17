@@ -1,44 +1,51 @@
 // Max flow with lower/upper bound on edges
 // source = 1 , sink = n
+const int N = 1005;
+const int M = 3005;
 int in[ N ] , out[ N ];
 int l[ M ] , r[ M ] , a[ M ] , b[ M ];
-int solve(){
-	flow.init( n );
-	for( int i = 0 ; i < m ; i ++ ){
+int n, m;
+int solve (int n, int m) {
+	int st = 0, ed = n + 1; 
+	flow.init(n + 2, st, ed);
+	for (int i = 1; i <= n; i++) {
+		in[i] = out[i] = 0;
+	}
+	for (int i = 1; i <= m; i++) {
 		in[ r[ i ] ] += a[ i ];
 		out[ l[ i ] ] += a[ i ];
-		flow.addEdge( l[ i ] , r[ i ] , b[ i ] - a[ i ] );
+		flow.add_edge( l[ i ] , r[ i ] , b[ i ] - a[ i ] );
 		// flow from l[i] to r[i] must in [a[ i ], b[ i ]]
 	}
 	int nd = 0;
-	for( int i = 1 ; i <= n ; i ++ ){
-		if( in[ i ] < out[ i ] ){
-			flow.addEdge( i , flow.t , out[ i ] - in[ i ] );
+	for (int i = 1; i <= n; i++) {
+		if (in[ i ] < out[ i ]) {
+			flow.add_edge( i , ed , out[ i ] - in[ i ] );
 			nd += out[ i ] - in[ i ];
 		}
-		if( out[ i ] < in[ i ] )
-			flow.addEdge( flow.s , i , in[ i ] - out[ i ] );
+		if (out[ i ] < in[ i ])
+			flow.add_edge( st , i , in[ i ] - out[ i ] );
 	}
 	// original sink to source
-	flow.addEdge( n , 1 , INF );
-	if( flow.maxflow() != nd )
+	flow.add_edge( n , 1 , INF );
+	if( flow.flow() != nd )
 		// no solution
 		return -1;
-	int ans = flow.G[ 1 ].back().c; // source to sink
-	flow.G[ 1 ].back().c = flow.G[ n ].back().c = 0;
+	int ans = flow.E[ 1 ].back().f; // source to sink
+	flow.E[ 1 ].back().f = flow.E[ n ].back().f = 0;
 	// take out super source and super sink
-	for( size_t i = 0 ; i < flow.G[ flow.s ].size() ; i ++ ){
-		flow.G[ flow.s ][ i ].c = 0;
-		Edge &e = flow.G[ flow.s ][ i ];
-		flow.G[ e.v ][ e.r ].c = 0;
+	for (int i = 0; i < SZ(flow.E[ st ]); i++) {
+		flow.E[ st ][ i ].f = 0;
+		Dinic::Edge &e = flow.E[ st ][ i ];
+		flow.E[ e.v ][ e.re ].f = 0;
 	}
-	for( size_t i = 0 ; i < flow.G[ flow.t ].size() ; i ++ ){
-		flow.G[ flow.t ][ i ].c = 0;
-		Edge &e = flow.G[ flow.t ][ i ];
-		flow.G[ e.v ][ e.r ].c = 0;
+	for (int i = 0; i < SZ(flow.E[ ed ]); i++){
+		flow.E[ ed ][ i ].f = 0;
+		Dinic::Edge &e = flow.E[ ed ][ i ];
+		flow.E[ e.v ][ e.re ].f = 0;
 	}
-	flow.addEdge( flow.s , 1 , INF );
-	flow.addEdge( n , flow.t , INF );
-	flow.reset();
-	return ans + flow.maxflow();
+	flow.add_edge( st , 1 , INF );
+	flow.add_edge( n , ed , INF );
+	return ans + flow.flow();
 }
+
