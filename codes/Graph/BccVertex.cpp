@@ -23,6 +23,7 @@ struct BccVertex{
 			if(dfn[v] == -1){
 				son++;
 				dfs(v, u);
+				low[u] = min(low[u], low[v]);
 				if(low[v] >= dfn[u]){
 					is_cut[u] = 1;
 					bcc[nBcc].clear();
