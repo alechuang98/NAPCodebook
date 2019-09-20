@@ -82,7 +82,7 @@ stringstyle=\itshape\color{Green4},
 \pagestyle{fancy}
 \fancyfoot{}
 %\fancyfoot[R]{\includegraphics[width=20pt]{ironwood.jpg}}
-\fancyhead[L]{nWa}
+\fancyhead[L]{NAP Codebook}
 \fancyhead[R]{\thepage}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\contentsname}{Contents} 
@@ -103,6 +103,9 @@ stringstyle=\itshape\color{Green4},
 \subsection{Default Code}
 \lstinputlisting{../codes/Basic/default.cpp}
 
+\subsection{Random}
+\lstinputlisting{../codes/Basic/random.cpp}
+
 \section{Data Structure}
 
 \subsection{extc\_heap}
@@ -111,10 +114,11 @@ stringstyle=\itshape\color{Green4},
 \subsection{extc\_balance\_tree}
 \lstinputlisting{../codes/Data_Structure/extc_bt.cpp}
 
-
-
 \subsection{Disjoint Set}
 \lstinputlisting{../codes/Data_Structure/DisjointSet.cpp}
+
+\subsection{DLX}
+\lstinputlisting{../codes/Data_Structure/DLX.cpp}
 
 \subsection{Treap}
 \lstinputlisting{../codes/Data_Structure/Treap.cpp}
@@ -122,8 +126,8 @@ stringstyle=\itshape\color{Green4},
 \subsection{Persistent Treap}
 \lstinputlisting{../codes/Data_Structure/PersistentTreap.cpp}
 
-\subsection{Persistent Segment Tree}
-\lstinputlisting{../codes/Data_Structure/PersistentSeg.cpp}
+% \subsection{Persistent Segment Tree}
+% \lstinputlisting{../codes/Data_Structure/PersistentSeg.cpp}
 
 \section{Graph}
 
@@ -142,9 +146,6 @@ stringstyle=\itshape\color{Green4},
 \subsection{Strongly Connected Components}
 \lstinputlisting{../codes/Graph/Scc.cpp}
 
-\subsection{Heavy Light Decomposition}
-\lstinputlisting{../codes/Graph/HeavyLightDecomp.cpp}
-
 \subsection{Maximum Clique}
 \lstinputlisting{../codes/Graph/MaximumClique.cpp}
 
@@ -156,6 +157,12 @@ stringstyle=\itshape\color{Green4},
 
 \subsection{Kth shortest path}
 \lstinputlisting{../codes/Graph/KSP.cpp}
+
+\subsection{General Matching}
+\lstinputlisting{../codes/Graph/generalMatching.cpp}
+
+\subsection{Directed Minimum Spanning Tree}
+\lstinputlisting{../codes/Graph/MinimumDST.cpp}
 
 
 \section{Flow}
@@ -177,8 +184,8 @@ stringstyle=\itshape\color{Green4},
 \subsection{Minimum Weight Matching (Clique version)}
 \lstinputlisting{../codes/Flow/MinimumGeneralWeightedMatching.cpp}
 
-\subsection{2-Commodity Flow}
-\lstinputlisting{../codes/Flow/2comFlow.cpp}
+% \subsection{2-Commodity Flow}
+% \lstinputlisting{../codes/Flow/2comFlow.cpp}
 
 \subsection{Bounded max flow}
 \lstinputlisting{../codes/Flow/BoundedMaxFlow.cpp}
@@ -200,8 +207,8 @@ stringstyle=\itshape\color{Green4},
 \subsection{Linear Prime Sieve}
 \lstinputlisting{../codes/Math/LinearPrimeSieve.cpp}
 
-\subsection{Bsgs}
-\lstinputlisting{../codes/Math/Bsgs.cpp}
+% \subsection{Bsgs}
+% \lstinputlisting{../codes/Math/Bsgs.cpp}
 
 \subsection{Chinese Remainder}
 \lstinputlisting{../codes/Math/ChineseRemainder.cpp}
@@ -239,6 +246,9 @@ stringstyle=\itshape\color{Green4},
 \subsection{Pseudoinverse of Square matrix}
 \lstinputlisting{../codes/Math/SquareMatrixPinv.cpp}
 
+\subsection{Poly operation}
+\lstinputlisting{../codes/Math/Polyop.cpp}
+
 \subsection{Theorem}
 \input{../codes/Math/theorem.tex}
 
@@ -259,6 +269,12 @@ stringstyle=\itshape\color{Green4},
 
 \subsection{Intersection of circle and line}
 \lstinputlisting{../codes/Geometry/IntersectionOfCircleAndLine.cpp}
+
+\subsection{Intersection of circle and line}
+\lstinputlisting{../codes/Geometry/IntersectionOfCircleAndSegments.cpp}
+
+\subsection{Intersection of circle and polygon}
+\lstinputlisting{../codes/Geometry/Intersection_of_polygon_and_circle.cpp}
 
 \subsection{Tangent line of two circles}
 \lstinputlisting{../codes/Geometry/TangentLineOfTwoCircles.cpp}
