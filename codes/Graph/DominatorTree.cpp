@@ -1,9 +1,9 @@
 const int MAXN = 100010;
 struct DominatorTree{
   int n , m , s;
-  vector< int > g[ MAXN ] , pred[ MAXN ];
+  vector< int > edge[ MAXN ] , re_edge[ MAXN ];
   vector< int > cov[ MAXN ];
-  int dfn[ MAXN ] , nfd[ MAXN ] , ts;
+  int dfn[ MAXN ] , nfd[ MAXN ] , cntp;
   int par[ MAXN ];
   int sdom[ MAXN ] , idom[ MAXN ];
   int mom[ MAXN ] , mn[ MAXN ];
@@ -18,25 +18,25 @@ struct DominatorTree{
     return mom[ u ] = res;
   }
   void init( int _n , int _m , int _s ){
-    ts = 0; n = _n; m = _m; s = _s;
+    cntp = 0; n = _n; m = _m; s = _s;
     for (int i = 1; i <= n; i++) {
-			g[ i ].clear(); pred[ i ].clear();
+			edge[ i ].clear(); 
+			re_edge[ i ].clear();
 		}
   }
   void add_edge( int u , int v ){
-    g[ u ].push_back( v );
-    pred[ v ].push_back( u );
+    edge[ u ].pb( v );
+    re_edge[ v ].pb( u );
   }
   void dfs( int u ){
-    ts++;
-    dfn[ u ] = ts;
-    nfd[ ts ] = u;
-    for( int v : g[ u ] ) if( dfn[ v ] == 0 ){
+    dfn[ u ] = ++cntp;
+    nfd[ cntp ] = u;
+    for( int v : edge[ u ] ) if( dfn[ v ] == 0 ){
       par[ v ] = u;
       dfs( v );
     }
   }
-  void build(){
+  void solve(){
     for (int i = 1; i <= n; i++) {
       dfn[ i ] = nfd[ i ] = 0;
       cov[ i ].clear();
@@ -46,7 +46,7 @@ struct DominatorTree{
     for (int i = n; i >= 2; i--) {
       int u = nfd[ i ];
       if( u == 0 ) continue ;
-      for( int v : pred[ u ] ) if( dfn[ v ] ){
+      for( int v : re_edge[ u ] ) if( dfn[ v ] ){
         eval( v );
         if( cmp( sdom[ mn[ v ] ] , sdom[ u ] ) )
           sdom[ u ] = sdom[ mn[ v ] ];
