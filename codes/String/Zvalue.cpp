@@ -1,8 +1,14 @@
-void Zval(const char *s, int len, int *z) {
-    z[0] = 0;
-    for (int b=0, i=1; i<len; i++) {
-        z[i] = max(min(z[i-b], z[b] + b - i), 0);
-        while (s[i + z[i]] == s[z[i]]) z[i] ++;
-        if (i+z[i] > b+z[b]) b=i;
-    }
+void Z_value(char *s, int len, int *z) {
+	int i,j,left,right;
+	left=right=0; z[0]=len;
+	for(i=1;i<len;i++) {
+		j=max(min(z[i-left],right-i),0);
+		for(;i+j<len&&s[i+j]==s[j];j++);
+		z[i]=j;
+		if(i+z[i]>right) {
+			right=i+z[i];
+			left=i;
+		}
+	}
 }
+
