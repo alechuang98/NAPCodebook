@@ -171,6 +171,9 @@ INPUT /home/alec/Documents/github/NAPCodebook/pdf/../codes/Basic/default.cpp
 INPUT /home/alec/Documents/github/NAPCodebook/pdf/../codes/Basic/random.cpp
 INPUT /home/alec/Documents/github/NAPCodebook/pdf/../codes/Basic/random.cpp
 INPUT /home/alec/Documents/github/NAPCodebook/pdf/../codes/Basic/random.cpp
+INPUT /home/alec/Documents/github/NAPCodebook/pdf/../codes/Basic/InputOpt.cpp
+INPUT /home/alec/Documents/github/NAPCodebook/pdf/../codes/Basic/InputOpt.cpp
+INPUT /home/alec/Documents/github/NAPCodebook/pdf/../codes/Basic/InputOpt.cpp
 INPUT /home/alec/Documents/github/NAPCodebook/pdf/../codes/Data_Structure/extc_heap.cpp
 INPUT /home/alec/Documents/github/NAPCodebook/pdf/../codes/Data_Structure/extc_heap.cpp
 INPUT /home/alec/Documents/github/NAPCodebook/pdf/../codes/Data_Structure/extc_heap.cpp
@@ -189,6 +192,9 @@ INPUT /home/alec/Documents/github/NAPCodebook/pdf/../codes/Data_Structure/Treap.
 INPUT /home/alec/Documents/github/NAPCodebook/pdf/../codes/Data_Structure/PersistentTreap.cpp
 INPUT /home/alec/Documents/github/NAPCodebook/pdf/../codes/Data_Structure/PersistentTreap.cpp
 INPUT /home/alec/Documents/github/NAPCodebook/pdf/../codes/Data_Structure/PersistentTreap.cpp
+INPUT /home/alec/Documents/github/NAPCodebook/pdf/../codes/Data_Structure/LiChao.cpp
+INPUT /home/alec/Documents/github/NAPCodebook/pdf/../codes/Data_Structure/LiChao.cpp
+INPUT /home/alec/Documents/github/NAPCodebook/pdf/../codes/Data_Structure/LiChao.cpp
 INPUT /home/alec/Documents/github/NAPCodebook/pdf/../codes/Graph/HeavyLightDecomp.cpp
 INPUT /home/alec/Documents/github/NAPCodebook/pdf/../codes/Graph/HeavyLightDecomp.cpp
 INPUT /home/alec/Documents/github/NAPCodebook/pdf/../codes/Graph/HeavyLightDecomp.cpp
@@ -222,6 +228,9 @@ INPUT /home/alec/Documents/github/NAPCodebook/pdf/../codes/Graph/generalMatching
 INPUT /home/alec/Documents/github/NAPCodebook/pdf/../codes/Graph/MinimumDST.cpp
 INPUT /home/alec/Documents/github/NAPCodebook/pdf/../codes/Graph/MinimumDST.cpp
 INPUT /home/alec/Documents/github/NAPCodebook/pdf/../codes/Graph/MinimumDST.cpp
+INPUT /home/alec/Documents/github/NAPCodebook/pdf/../codes/Graph/DominatorTree.cpp
+INPUT /home/alec/Documents/github/NAPCodebook/pdf/../codes/Graph/DominatorTree.cpp
+INPUT /home/alec/Documents/github/NAPCodebook/pdf/../codes/Graph/DominatorTree.cpp
 INPUT /home/alec/Documents/github/NAPCodebook/pdf/../codes/Flow/Dinic.cpp
 INPUT /home/alec/Documents/github/NAPCodebook/pdf/../codes/Flow/Dinic.cpp
 INPUT /home/alec/Documents/github/NAPCodebook/pdf/../codes/Flow/Dinic.cpp
@@ -288,6 +297,9 @@ INPUT /home/alec/Documents/github/NAPCodebook/pdf/../codes/Math/Primes.cpp
 INPUT /home/alec/Documents/github/NAPCodebook/pdf/../codes/Math/PrimitiveRoot.cpp
 INPUT /home/alec/Documents/github/NAPCodebook/pdf/../codes/Math/PrimitiveRoot.cpp
 INPUT /home/alec/Documents/github/NAPCodebook/pdf/../codes/Math/PrimitiveRoot.cpp
+INPUT /home/alec/Documents/github/NAPCodebook/pdf/../codes/Math/Cipolla.cpp
+INPUT /home/alec/Documents/github/NAPCodebook/pdf/../codes/Math/Cipolla.cpp
+INPUT /home/alec/Documents/github/NAPCodebook/pdf/../codes/Math/Cipolla.cpp
 INPUT /home/alec/Documents/github/NAPCodebook/pdf/../codes/Math/SquareMatrixPinv.cpp
 INPUT /home/alec/Documents/github/NAPCodebook/pdf/../codes/Math/SquareMatrixPinv.cpp
 INPUT /home/alec/Documents/github/NAPCodebook/pdf/../codes/Math/SquareMatrixPinv.cpp

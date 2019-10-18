@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2018.10.12)  6 SEP 2019 20:08
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2018.10.12)  18 OCT 2019 21:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1321,10 +1321,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (/home/alec/Documents/github/NAPCodebook/pdf/../codes/Basic/IncStack.cpp)
 (/home/alec/Documents/github/NAPCodebook/pdf/../codes/Basic/default.cpp)
 (/home/alec/Documents/github/NAPCodebook/pdf/../codes/Basic/random.cpp)
-(/home/alec/Documents/github/NAPCodebook/pdf/../codes/Data_Structure/extc_heap.
-cpp [1
+(/home/alec/Documents/github/NAPCodebook/pdf/../codes/Basic/InputOpt.cpp
+[1
 
 ])
+(/home/alec/Documents/github/NAPCodebook/pdf/../codes/Data_Structure/extc_heap.
+cpp)
 (/home/alec/Documents/github/NAPCodebook/pdf/../codes/Data_Structure/extc_bt.cp
 p)
 (/home/alec/Documents/github/NAPCodebook/pdf/../codes/Data_Structure/DisjointSe
@@ -1335,60 +1337,60 @@ t.cpp)
 
 (/home/alec/Documents/github/NAPCodebook/pdf/../codes/Data_Structure/Persistent
 Treap.cpp [3])
+(/home/alec/Documents/github/NAPCodebook/pdf/../codes/Data_Structure/LiChao.cpp
+)
 (/home/alec/Documents/github/NAPCodebook/pdf/../codes/Graph/HeavyLightDecomp.cp
-p) (/home/alec/Documents/github/NAPCodebook/pdf/../codes/Graph/Center.cpp
-[4]) (/home/alec/Documents/github/NAPCodebook/pdf/../codes/Graph/BccEdge.cpp)
-(/home/alec/Documents/github/NAPCodebook/pdf/../codes/Graph/BccVertex.cpp)
-(/home/alec/Documents/github/NAPCodebook/pdf/../codes/Graph/Scc.cpp) [5]
+p [4]) (/home/alec/Documents/github/NAPCodebook/pdf/../codes/Graph/Center.cpp)
+(/home/alec/Documents/github/NAPCodebook/pdf/../codes/Graph/BccEdge.cpp)
+(/home/alec/Documents/github/NAPCodebook/pdf/../codes/Graph/BccVertex.cpp
+[5]) (/home/alec/Documents/github/NAPCodebook/pdf/../codes/Graph/Scc.cpp)
 (/home/alec/Documents/github/NAPCodebook/pdf/../codes/Graph/MaximumClique.cpp)
-(/home/alec/Documents/github/NAPCodebook/pdf/../codes/Graph/MinMeanCycle.cpp)
-(/home/alec/Documents/github/NAPCodebook/pdf/../codes/Graph/DynamicMST.cpp
-[6]) (/home/alec/Documents/github/NAPCodebook/pdf/../codes/Graph/KSP.cpp
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7])
-(/home/alec/Documents/github/NAPCodebook/pdf/../codes/Graph/generalMatching.cpp
-) (/home/alec/Documents/github/NAPCodebook/pdf/../codes/Graph/MinimumDST.cpp)
-(/home/alec/Documents/github/NAPCodebook/pdf/../codes/Flow/Dinic.cpp [8])
-(/home/alec/Documents/github/NAPCodebook/pdf/../codes/Flow/CostFlow.cpp)
-(/home/alec/Documents/github/NAPCodebook/pdf/../codes/Flow/KuhnMunkres.cpp)
-(/home/alec/Documents/github/NAPCodebook/pdf/../codes/Flow/MaximumSimpleGraphMa
-tching.cpp [9]
+(/home/alec/Documents/github/NAPCodebook/pdf/../codes/Graph/MinMeanCycle.cpp
+[6]) (/home/alec/Documents/github/NAPCodebook/pdf/../codes/Graph/DynamicMST.cpp
+) (/home/alec/Documents/github/NAPCodebook/pdf/../codes/Graph/KSP.cpp [7]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
+(/home/alec/Documents/github/NAPCodebook/pdf/../codes/Graph/generalMatching.cpp
+) (/home/alec/Documents/github/NAPCodebook/pdf/../codes/Graph/MinimumDST.cpp
+[8])
+(/home/alec/Documents/github/NAPCodebook/pdf/../codes/Graph/DominatorTree.cpp)
+(/home/alec/Documents/github/NAPCodebook/pdf/../codes/Flow/Dinic.cpp [9])
+(/home/alec/Documents/github/NAPCodebook/pdf/../codes/Flow/CostFlow.cpp)
+(/home/alec/Documents/github/NAPCodebook/pdf/../codes/Flow/KuhnMunkres.cpp)
+(/home/alec/Documents/github/NAPCodebook/pdf/../codes/Flow/MaximumSimpleGraphMa
+tching.cpp [10])
 (/home/alec/Documents/github/NAPCodebook/pdf/../codes/Flow/MinimumGeneralWeight
-edMatching.cpp) [10]
-(/home/alec/Documents/github/NAPCodebook/pdf/../codes/Flow/BoundedMaxFlow.cpp)
-(/home/alec/Documents/github/NAPCodebook/pdf/../codes/Flow/ISAP.cpp)
+edMatching.cpp)
+(/home/alec/Documents/github/NAPCodebook/pdf/../codes/Flow/BoundedMaxFlow.cpp
+[11]) (/home/alec/Documents/github/NAPCodebook/pdf/../codes/Flow/ISAP.cpp)
 (/home/alec/Documents/github/NAPCodebook/pdf/../codes/Flow/FlowMethod.txt)
-(/home/alec/Documents/github/NAPCodebook/pdf/../codes/Math/Bigint.cpp [11]
+(/home/alec/Documents/github/NAPCodebook/pdf/../codes/Math/Bigint.cpp [12]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
 (/home/alec/Documents/github/NAPCodebook/pdf/../codes/Math/ax+by=gcd.cpp)
-[12]
 (/home/alec/Documents/github/NAPCodebook/pdf/../codes/Math/LinearPrimeSieve.cpp
-)
+) [13]
 (/home/alec/Documents/github/NAPCodebook/pdf/../codes/Math/ChineseRemainder.cpp
 ) (/home/alec/Documents/github/NAPCodebook/pdf/../codes/Math/FFT.cpp)
 (/home/alec/Documents/github/NAPCodebook/pdf/../codes/Math/KthResidue.cpp
-[13]
+[14])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
+
 (/home/alec/Documents/github/NAPCodebook/pdf/../codes/Math/GaussElimination.cpp
 ) (/home/alec/Documents/github/NAPCodebook/pdf/../codes/Math/Matrix.cpp)
-(/home/alec/Documents/github/NAPCodebook/pdf/../codes/Math/NTT.cpp [14])
+(/home/alec/Documents/github/NAPCodebook/pdf/../codes/Math/NTT.cpp [15])
 (/home/alec/Documents/github/NAPCodebook/pdf/../codes/Math/NTT_eddy.cpp)
 (/home/alec/Documents/github/NAPCodebook/pdf/../codes/Math/MillerRabin.cpp
-[15]) (/home/alec/Documents/github/NAPCodebook/pdf/../codes/Math/PollardRho.cpp
+[16]) (/home/alec/Documents/github/NAPCodebook/pdf/../codes/Math/PollardRho.cpp
 ) (/home/alec/Documents/github/NAPCodebook/pdf/../codes/Math/Primes.cpp)
-(/home/alec/Documents/github/NAPCodebook/pdf/../codes/Math/PrimitiveRoot.cpp
-[16])
+(/home/alec/Documents/github/NAPCodebook/pdf/../codes/Math/PrimitiveRoot.cpp)
+[17] (/home/alec/Documents/github/NAPCodebook/pdf/../codes/Math/Cipolla.cpp)
 (/home/alec/Documents/github/NAPCodebook/pdf/../codes/Math/SquareMatrixPinv.cpp
 ) (/home/alec/Documents/github/NAPCodebook/pdf/../codes/Math/Polyop.cpp)
-(/home/alec/Documents/github/NAPCodebook/pdf/../codes/Math/theorem.tex
+(/home/alec/Documents/github/NAPCodebook/pdf/../codes/Math/theorem.tex [18]
 Underfull \hbox (badness 10000) in paragraph at lines 19--32
 
  []
@@ -1403,7 +1405,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--32
 
  []
 
-[17]
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
@@ -1419,24 +1420,24 @@ oSegments.cpp)
 (/home/alec/Documents/github/NAPCodebook/pdf/../codes/Geometry/IntersectionOfCi
 rcleAndLine.cpp)
 (/home/alec/Documents/github/NAPCodebook/pdf/../codes/Geometry/IntersectionOfCi
-rcleAndSegments.cpp)
+rcleAndSegments.cpp [19])
 (/home/alec/Documents/github/NAPCodebook/pdf/../codes/Geometry/Intersection_of_
-polygon_and_circle.cpp [18])
+polygon_and_circle.cpp)
 (/home/alec/Documents/github/NAPCodebook/pdf/../codes/Geometry/TangentLineOfTwo
 Circles.cpp)
 (/home/alec/Documents/github/NAPCodebook/pdf/../codes/Geometry/CircleCover.cpp)
 
-(/home/alec/Documents/github/NAPCodebook/pdf/../codes/Geometry/HalfPlaneInterse
-ction.cpp [19])
-(/home/alec/Documents/github/NAPCodebook/pdf/../codes/Geometry/PolyUnion.cpp)
-(/home/alec/Documents/github/NAPCodebook/pdf/../codes/Geometry/ConvexHull.cpp)
-(/home/alec/Documents/github/NAPCodebook/pdf/../codes/Geometry/ConvexHullTrick.
-cpp [20]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
-(/home/alec/Documents/github/NAPCodebook/pdf/../codes/Geometry/KD_Tree.cpp
+ [20]
+(/home/alec/Documents/github/NAPCodebook/pdf/../codes/Geometry/HalfPlaneInterse
+ction.cpp)
+(/home/alec/Documents/github/NAPCodebook/pdf/../codes/Geometry/PolyUnion.cpp)
+(/home/alec/Documents/github/NAPCodebook/pdf/../codes/Geometry/ConvexHull.cpp
 [21])
+(/home/alec/Documents/github/NAPCodebook/pdf/../codes/Geometry/ConvexHullTrick.
+cpp) (/home/alec/Documents/github/NAPCodebook/pdf/../codes/Geometry/KD_Tree.cpp
+[22])
 (/home/alec/Documents/github/NAPCodebook/pdf/../codes/Geometry/Triangle.cpp
 
 LaTeX Font Warning: Font shape `TU/FandolFang-Regular(0)/m/it' undefined
@@ -1444,29 +1445,28 @@ LaTeX Font Warning: Font shape `TU/FandolFang-Regular(0)/m/it' undefined
 1.
 
 ) (/home/alec/Documents/github/NAPCodebook/pdf/../codes/String/SuffixArray.cpp)
-(/home/alec/Documents/github/NAPCodebook/pdf/../codes/String/SAIS.cpp [22])
+(/home/alec/Documents/github/NAPCodebook/pdf/../codes/String/SAIS.cpp [23])
 (/home/alec/Documents/github/NAPCodebook/pdf/../codes/String/SAM.cpp)
 (/home/alec/Documents/github/NAPCodebook/pdf/../codes/String/Aho-Corasick.cpp)
-(/home/alec/Documents/github/NAPCodebook/pdf/../codes/String/KMP.cpp)
-(/home/alec/Documents/github/NAPCodebook/pdf/../codes/String/Zvalue.cpp
-[23])
+(/home/alec/Documents/github/NAPCodebook/pdf/../codes/String/KMP.cpp [24])
+(/home/alec/Documents/github/NAPCodebook/pdf/../codes/String/Zvalue.cpp)
 (/home/alec/Documents/github/NAPCodebook/pdf/../codes/String/ZvaluePalindrome.c
 pp)
 (/home/alec/Documents/github/NAPCodebook/pdf/../codes/String/SmallestRotation.c
 pp) (/home/alec/Documents/github/NAPCodebook/pdf/../codes/String/SAM.cpp)
-[24] (/home/alec/Documents/github/NAPCodebook/pdf/codebook.aux)
+[25] (/home/alec/Documents/github/NAPCodebook/pdf/codebook.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 24424 strings out of 493007
- 466388 string characters out of 6136718
- 1324355 words of memory out of 5000000
- 27980 multiletter control sequences out of 15000+600000
+ 24507 strings out of 493007
+ 467667 string characters out of 6136718
+ 1227355 words of memory out of 5000000
+ 28051 multiletter control sequences out of 15000+600000
  532187 words of font info for 57 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 46i,12n,74p,10409b,1604s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,12n,74p,10409b,1602s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /home/alec/Documents/github/NAPCodebook/pdf/codebook.pdf (24 
+Output written on /home/alec/Documents/github/NAPCodebook/pdf/codebook.pdf (25 
 pages).
