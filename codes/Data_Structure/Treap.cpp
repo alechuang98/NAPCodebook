@@ -2,12 +2,8 @@ const int MEM = 560004;
 struct Treap {
   static Treap mem[MEM], *pmem;
   Treap *l, *r;
-	LL val;
-	LL mxn;
-	LL sum;
-	LL d;
-  int size;
-	int pri;
+	LL val, mxn, sum, d;
+  int size, pri;
   Treap () : l(NULL), r(NULL), size(0) {}
   Treap (LL _val) : 
     l(NULL), r(NULL), val(_val), mxn(_val), sum(_val), d(0), size(1), pri(rand()){}

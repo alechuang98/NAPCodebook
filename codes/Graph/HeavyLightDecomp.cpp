@@ -33,34 +33,6 @@ struct HLD{
 			tr[u] = tr[v];
 		}
 	}
-	inline int lca(int a, int b){
-		if(dep[a] > dep[b]) swap(a, b);
-		int diff = dep[b] - dep[a];
-		for (int k = LOG-1; k >= 0; k--) if(diff & (1<<k)){
-			b = prt[b][k];
-		}
-		if(a == b) return a;
-		for (int k = LOG-1; k >= 0; k--) if(prt[a][k] != prt[b][k]){
-			a = prt[a][k]; b = prt[b][k];
-		}
-		return prt[a][0];
-	}
-	void init( int _n ){
-		n = _n; 
-		for (int i = 1; i <= n; i++)
-			g[ i ].clear();
-	}
-	void add_edge(int u , int v){
-		g[u].pb(v);
-		g[v].pb(u);
-	}
-	void yutruli(){
-		dfssz(1, 0);
-		ts = 0;
-		dfshl(1);
-		REP(k, 1, LOG-1) REP(i, 1, n)
-			prt[i][k] = prt[prt[i][k-1]][k-1];
-	}
 	vector<PII> getPath(int u , int v) {
 		vector<PII> res;
 		while( tid[ u ] < tid[ head[ v ] ] ){

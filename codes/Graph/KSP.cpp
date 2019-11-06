@@ -33,7 +33,7 @@ struct KSP{ // 1-base
 			dst[ i ] = -1;
 		}
 	}
-	void addEdge( int ui , int vi , int di ){
+	void add_edge( int ui , int vi , int di ){
 		nd* e = new nd(ui, vi, di);
 		g[ ui ].push_back( e );
 		rg[ vi ].push_back( e );

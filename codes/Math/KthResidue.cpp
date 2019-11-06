@@ -5,23 +5,6 @@
  * 3. use Bsgs to find b O( sqrt(n) + m*log(m) )
  * 4. use ex_gcd to find a(ax + by = gcd, at + b(p-1) = gcd) O(log(n))
  */
-LL mypow(LL v, LL t, LL md = mod) {
-	LL res = 1;
-	while (t) {
-		if (t & 1) res = res*v%md;
-		t >>= 1;
-		v = v*v%md;
-	}
-	return res;
-}
-LL gcd(LL v1, LL v2){
-	while (v1) {
-		LL tmp = v2 % v1;
-		v2 = v1;
-		v1 = tmp;
-	}
-	return v2;
-}
 struct KthResidue{
 	struct PriRoot{
 		int a[MXN], cntp;
@@ -86,16 +69,6 @@ struct KthResidue{
 			return ok ? ans : -1;
 		}
 	}bsgs;
-
-	PLL ex_gcd(LL a, LL b){
-		if(b == 0) return MP(1, 0);
-		else{
-			LL p = a / b;
-			PLL q = ex_gcd(b, a % b);
-			return MP(q.S, q.F - q.S * p);
-		}
-	}
-	
 	LL solve(LL t, LL m, LL p){
 		LL v = root.solve(p);
 		LL gd = bsgs.solve(v, m, p);

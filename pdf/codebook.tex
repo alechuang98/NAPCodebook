@@ -1,3 +1,4 @@
+% !TEX TS-program = XeLaTeX
 \documentclass[a4paper,10pt,twocolumn,oneside]{article}
 \setlength{\columnsep}{10pt}                                                                    %兩欄模式的間距
 \setlength{\columnseprule}{0pt}                                                                %兩欄模式間格線粗細
@@ -39,7 +40,7 @@
 
 %\setmainfont{Consolas}				%主要字型
 %\setmainfont{Linux Libertine G}
-\setmonofont{Consolas}
+\setmonofont{Monaco}
 %B\setCJKmainfont{Source Han Sans}			%中文字型
 %\setmainfont{sourcecodepro}
 \XeTeXlinebreaklocale "zh"						%中文自動換行
@@ -132,16 +133,19 @@ stringstyle=\itshape\color{Green4},
 \subsection{Li Chao Segment Tree}
 \lstinputlisting{../codes/Data_Structure/LiChao.cpp}
 
+\subsection{HilbertCurve}
+\lstinputlisting{../codes/Data_Structure/HilbertCurve.cpp}
+
 % \subsection{Persistent Segment Tree}
 % \lstinputlisting{../codes/Data_Structure/PersistentSeg.cpp}
 
 \section{Graph}
 
-\subsection{Heavy Light Decomposition}
-\lstinputlisting{../codes/Graph/HeavyLightDecomp.cpp}
+% \subsection{Heavy Light Decomposition}
+% \lstinputlisting{../codes/Graph/HeavyLightDecomp.cpp}
 
-\subsection{Tree center}
-\lstinputlisting{../codes/Graph/Center.cpp}
+% \subsection{Tree center}
+% \lstinputlisting{../codes/Graph/Center.cpp}
 
 \subsection{BCC Edge}
 \lstinputlisting{../codes/Graph/BccEdge.cpp}
@@ -149,8 +153,8 @@ stringstyle=\itshape\color{Green4},
 \subsection{BCC Vertex}
 \lstinputlisting{../codes/Graph/BccVertex.cpp}
 
-\subsection{Strongly Connected Components}
-\lstinputlisting{../codes/Graph/Scc.cpp}
+% \subsection{Strongly Connected Components}
+% \lstinputlisting{../codes/Graph/Scc.cpp}
 
 \subsection{Maximum Clique}
 \lstinputlisting{../codes/Graph/MaximumClique.cpp}
@@ -173,6 +177,8 @@ stringstyle=\itshape\color{Green4},
 \subsection{Dominator Tree}
 \lstinputlisting{../codes/Graph/DominatorTree.cpp}
 
+\subsection{Minimum Steiner Tree}
+\lstinputlisting{../codes/Graph/MinimumSteinerTree.cpp}
 
 \section{Flow}
 %\subsection{ISAP} %Checked
@@ -199,8 +205,11 @@ stringstyle=\itshape\color{Green4},
 \subsection{Bounded max flow}
 \lstinputlisting{../codes/Flow/BoundedMaxFlow.cpp}
 
-\subsection{ISAP}
-\lstinputlisting{../codes/Flow/ISAP.cpp}
+%\subsection{ISAP}
+%\lstinputlisting{../codes/Flow/ISAP.cpp}
+
+\subsection{SW-mincut}
+\lstinputlisting{../codes/Flow/SW-mincut.cpp}
 
 \subsection{Flow Method}
 \lstinputlisting{../codes/Flow/FlowMethod.txt}
@@ -231,14 +240,14 @@ stringstyle=\itshape\color{Green4},
 \subsection{Gauss Elimination}
 \lstinputlisting{../codes/Math/GaussElimination.cpp}
 
-\subsection{Matrix}
-\lstinputlisting{../codes/Math/Matrix.cpp}
-
-\subsection{NTT}
-\lstinputlisting{../codes/Math/NTT.cpp}
+% \subsection{Matrix}
+% \lstinputlisting{../codes/Math/Matrix.cpp}
 
 \subsection{NTT(eddy ver.)}
 \lstinputlisting{../codes/Math/NTT_eddy.cpp}
+
+\subsection{FWT}
+\lstinputlisting{../codes/Math/FWT.cpp}
 
 \subsection{Miller Rabin}
 \lstinputlisting{../codes/Math/MillerRabin.cpp}
@@ -249,14 +258,15 @@ stringstyle=\itshape\color{Green4},
 \subsection{Algorithms about Primes}
 \lstinputlisting{../codes/Math/Primes.cpp}
 
-\subsection{Primitive Root}
-\lstinputlisting{../codes/Math/PrimitiveRoot.cpp}
 
-\subsection{Cipolla}
-\lstinputlisting{../codes/Math/Cipolla.cpp}
+% \subsection{Primitive Root}
+% \lstinputlisting{../codes/Math/PrimitiveRoot.cpp}
 
-\subsection{Pseudoinverse of Square matrix}
-\lstinputlisting{../codes/Math/SquareMatrixPinv.cpp}
+% \subsection{Cipolla}
+% \lstinputlisting{../codes/Math/Cipolla.cpp}
+
+\subsection{Faulhaber}
+\lstinputlisting{../codes/Math/Faulhaber.cpp}
 
 \subsection{Poly operation}
 \lstinputlisting{../codes/Math/Polyop.cpp}

@@ -6,27 +6,21 @@ struct DLX {
 	int n, m, cntp;
 	void init() {
 		for (int i = 0; i <= m; i++) {
-			L[i] = i - 1;
-			R[i] = i + 1;
+			L[i] = i - 1; R[i] = i + 1;
 			U[i] = D[i] = i;
 			S[i] = 0;
 		}
-		L[0] = m;
-		R[m] = 0;
+		L[0] = m; R[m] = 0;
 		cntp = m + 1;
 		for (int i = 1; i <= n; i++) {
 			int f = -1;
 			for (int j = 1; j <= m; j++) {
 				if (!a[i][j]) continue ;
 				if (f == -1) f = cntp;
-				L[cntp] = cntp - 1;
-				R[cntp] = cntp + 1;
-				U[cntp] = U[j];
-				D[U[j]] = cntp;
-				D[cntp] = j;
-				U[j] = cntp;
-				rr[cntp] = i;
-				cc[cntp] = j;
+				L[cntp] = cntp - 1; R[cntp] = cntp + 1;
+				U[cntp] = U[j]; D[U[j]] = cntp;
+				D[cntp] = j; U[j] = cntp;
+				rr[cntp] = i; cc[cntp] = j;
 				S[j]++;
 				cntp++;
 			}
@@ -42,8 +36,7 @@ struct DLX {
 		for (int i = D[c]; i != c; i = D[i]) {
 			for (int j = R[i]; j != i; j = R[j]) {
 				S[cc[j]]--;
-				D[U[j]] = D[j];
-				U[D[j]] = U[j];
+				D[U[j]] = D[j]; U[D[j]] = U[j];
 			}
 		}
 	}
@@ -51,12 +44,10 @@ struct DLX {
 		for (int i = U[c]; i != c; i = U[i]) {
 			for (int j = L[i]; j != i; j = L[j]) {
 				S[cc[j]]++;
-				D[U[j]] = j;
-				U[D[j]] = j;
+				D[U[j]] = j; U[D[j]] = j;
 			}
 		}
-		R[L[c]] = c;
-		L[R[c]] = c;
+		R[L[c]] = c; L[R[c]] = c;
 	}
 	void dfs(int dep) {
 		if (dep > ans) return ;
