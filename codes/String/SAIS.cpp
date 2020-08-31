@@ -53,7 +53,7 @@ void suffix_array(int* ip, int len) {
     ip[len++] = 0;
     sa.build(ip, len, 128);
     // original 1-base
-    for (int i=0; i<l; i++) {
+    for (int i=0; i<len; i++) {
         hei[i] = sa.hei[i + 1];
         sa[i] = sa._sa[i + 1];
     }
