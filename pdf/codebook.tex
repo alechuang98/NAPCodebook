@@ -83,7 +83,7 @@ stringstyle=\itshape\color{Green4},
 \pagestyle{fancy}
 \fancyfoot{}
 %\fancyfoot[R]{\includegraphics[width=20pt]{ironwood.jpg}}
-\fancyhead[L]{National Taiwan University NAP Codebook}
+\fancyhead[L]{National Taiwan University BAN Codebook}
 \fancyhead[R]{\thepage}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\contentsname}{Contents} 
@@ -147,6 +147,9 @@ stringstyle=\itshape\color{Green4},
 % \subsection{Tree center}
 % \lstinputlisting{../codes/Graph/Center.cpp}
 
+\subsection{CentroidDecomposition}
+\lstinputlisting{../codes/Graph/CentroidDecomposition.cpp}
+
 \subsection{BCC Edge}
 \lstinputlisting{../codes/Graph/BccEdge.cpp}
 
@@ -179,6 +182,15 @@ stringstyle=\itshape\color{Green4},
 
 \subsection{Minimum Steiner Tree}
 \lstinputlisting{../codes/Graph/MinimumSteinerTree.cpp}
+
+\subsection{De Bruijn sequence}
+\lstinputlisting{../codes/Graph/DeBruijnSequence.cpp}
+
+\subsection{Vizing Coloring}
+\lstinputlisting{../codes/Graph/Vizing.cpp}
+
+\subsection{Graph Hash}
+\input{../codes/Graph/graphHash.tex}
 
 \section{Flow}
 %\subsection{ISAP} %Checked
@@ -277,8 +289,8 @@ stringstyle=\itshape\color{Green4},
 %\newpage
 
 \section{Geometry}
-\subsection{Point operators}
-\lstinputlisting{../codes/Geometry/Points.cpp}
+%\subsection{Point operators}
+%\lstinputlisting{../codes/Geometry/Points.cpp}
 
 \subsection{Intersection of two circles}
 \lstinputlisting{../codes/Geometry/IntersectionOfTwoCircles.cpp}
@@ -324,8 +336,8 @@ stringstyle=\itshape\color{Green4},
 
 \section{Stringology}
 
-\subsection{Suffix Array}
-\lstinputlisting{../codes/String/SuffixArray.cpp}
+%\subsection{Suffix Array}
+%\lstinputlisting{../codes/String/SuffixArray.cpp}
 
 \subsection{SAIS}
 \lstinputlisting{../codes/String/SAIS.cpp}
@@ -347,8 +359,5 @@ stringstyle=\itshape\color{Green4},
 
 \subsection{Lexicographically Smallest Rotation}
 \lstinputlisting{../codes/String/SmallestRotation.cpp}
-
-\subsection{Suffix Automaton}
-\lstinputlisting{../codes/String/SAM.cpp}
 
 \end{document}

@@ -80,4 +80,8 @@ void split_size(Treap *t, int k, Treap *&a, Treap *&b) {
     pull(b);
   }
 }
+int main() {
+	Treap *l = new (Treap::pmem++) Treap(5);
+	return 0;
+}
 

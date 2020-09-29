@@ -1,43 +1,45 @@
-// par : fail link
-// val : a topological order ( useful for DP )
-// go[x] : automata edge ( x is integer in [0,26) )
-
+const int MAXM = 1000010;
 struct SAM{
-	struct State{
-		int par, go[26], val;
-		State () : par(0), val(0){ FZ(go); }
-		State (int _val) : par(0), val(_val){	FZ(go);	}
-	};
-	vector<State> vec;
-	int root, tail;
-	
-	void init(int arr[], int len){
-		vec.resize(2);
-		vec[0] = vec[1] = State(0);
-		root = tail = 1;
-		for (int i=0; i<len; i++)
-			extend(arr[i]);
-	}
-	void extend(int w){
-		int p = tail, np = vec.size();
-		vec.PB(State(vec[p].val+1));
-		for ( ; p && vec[p].go[w]==0; p=vec[p].par)
-			vec[p].go[w] = np;
-		if (p == 0){
-			vec[np].par = root;
-		} else {
-			if (vec[vec[p].go[w]].val == vec[p].val+1){
-				vec[np].par = vec[p].go[w];
-			} else {
-				int q = vec[p].go[w], r = vec.size();
-				vec.PB(vec[q]);
-				vec[r].val = vec[p].val+1;
-				vec[q].par = vec[np].par = r;
-				for ( ; p && vec[p].go[w] == q; p=vec[p].par)
-					vec[p].go[w] = r;
-			}
-		}
-		tail = np;
-	}
-};
-
+  int tot, root, lst, mom[MAXM], mx[MAXM];
+  int acc[MAXM], nxt[MAXM][33];
+  int newNode(){
+    int res = ++tot;
+    fill(nxt[res], nxt[res]+33, 0);
+    mom[res] = mx[res] = acc[res] = 0;
+    return res;
+  }
+  void init(){
+    tot = 0;
+    root = newNode();
+    mom[root] = 0, mx[root] = 0;
+    lst = root;
+  }
+  void push(int c){
+    int p = lst;
+    int np = newNode();
+    mx[np] = mx[p]+1;
+    for(; p && nxt[p][c] == 0; p = mom[p])
+      nxt[p][c] = np;
+    if(p == 0) mom[np] = root;
+    else{
+      int q = nxt[p][c];
+      if(mx[p]+1 == mx[q]) mom[np] = q;
+      else{
+        int nq = newNode();
+        mx[nq] = mx[p]+1;
+        for(int i = 0; i < 33; i++)
+          nxt[nq][i] = nxt[q][i];
+        mom[nq] = mom[q];
+        mom[q] = nq;
+        mom[np] = nq;
+        for(; p && nxt[p][c] == q; p = mom[p])
+          nxt[p][c] = nq;
+      }
+    }
+    lst = np;
+  }
+  void push(char *str){
+    for(int i = 0; str[i]; i++)
+      push(str[i]-'a'+1);
+  }
+} sam;
