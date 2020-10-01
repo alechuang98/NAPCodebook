@@ -1,43 +1,17 @@
-unordered_set<string> seen; 
-vector<int> edges; 
-  
-// Modified DFS in which no edge 
-// is traversed twice 
-void dfs(string node, int& k, string& A) { 
-    for (int i = 0; i < k; ++i) { 
-        string str = node + A[i]; 
-        if (seen.find(str) == seen.end()) { 
-            seen.insert(str); 
-            dfs(str.substr(1), k, A); 
-            edges.push_back(i); 
-        } 
-    } 
-} 
-  
-// Function to find a de Bruijn sequence 
-// of order n on k characters 
-string deBruijn(int n, int k, string A) { 
-  
-    // Clearing global variables 
-    seen.clear(); 
-    edges.clear(); 
-  
-    string startingNode = string(n - 1, A[0]); 
-    dfs(startingNode, k, A); 
-  
-    string S; 
-  
-    // Number of edges 
-    int l = pow(k, n); 
-    for (int i = 0; i < l; ++i) 
-        S += A[edges[i]]; 
-    S += startingNode; 
-  
-    return S; 
-} 
-int main()  { 
-    int n = 3, k = 2; 
-    string A = "01"; 
-    cout << deBruijn(n, k, A); 
-    return 0; 
-} 
+int res[N], aux[N], a[N], sz;
+void Rec(int t, int p, int n, int k) {
+    if (t > n) {
+        if (n % p == 0)
+            for (int i = 1; i <= p; ++i) res[sz++] = aux[i];
+    } else {
+        aux[t] = aux[t - p];
+        Rec(t + 1, p, n, k);
+        for (aux[t] = aux[t - p] + 1; aux[t] < k; ++aux[t]) Rec(t + 1, t, n, k);
+    }
+}
+int DeBruijn(int k, int n) {
+    // return cyclic string of length k^n such that every string of length n using k character appears as a substring.
+    if (k == 1) return res[0] = 0, 1;
+    fill(aux, aux + k * n, 0);
+    return sz = 0, Rec(1, 1, n, k), sz;
+}

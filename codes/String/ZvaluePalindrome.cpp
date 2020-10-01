@@ -1,5 +1,5 @@
 // z[i] means that the longest odd palindrom centered at
-// i is [i-z[i] .. i+z[i]]
+// i ( [i-z[i]/2 .. i+z[i]/2] )
 int len, zv[MAX*2];
 char ip[MAX], op[MAX*2];
 int main(){
