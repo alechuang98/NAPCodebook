@@ -1,14 +1,12 @@
-pair<PII, int> edge[MXN];
-int dis[MXN], fr[MXN];
-int vis[MXN], id[MXN];
+tuple<int, int, int> edge[ M ];
+int dis[ N ], fr[ N ], vis[ N ], id[ N ];
 int sol(int n, int m, int root) {
     int ans = 0;
     while (true) {
         for (int i = 1; i <= n; i++)
             dis[i] = INF;
         for (int i = 1; i <= m; i++) {
-            int u, v, w = edge[i].S; 
-            tie(u, v) = edge[i].F;
+            int u, v, w; tie(u, v, w) = edge[i]; 
             if (dis[v] > w) {
                 dis[v] = w;
                 fr[v] = u;
@@ -41,12 +39,9 @@ int sol(int n, int m, int root) {
             if (!id[i]) id[i] = ++num;
         int nm = 0;
         for (int i = 1; i <= m; i++) {
-            int u, v; tie(u, v) = edge[i].F;
+            int u, v, w; tie(u, v, w) = edge[i];
             if (id[u] == id[v]) continue ;
-            nm++;
-            edge[nm].F.F = id[u];
-            edge[nm].F.S = id[v];
-            edge[nm].S = edge[i].S - dis[v];
+            edge[++nm] = {id[u], id[v], w - dis[v]};
         }
         m = nm;
         n = num;

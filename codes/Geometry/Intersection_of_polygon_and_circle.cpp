@@ -21,7 +21,7 @@ D area2(Pt pa, Pt pb){
 }
 D area() {
 	D S = 0;
-	//info[n] = info[0]
+	//info[n] = info[0], info[i] = pt[i] - ORI;
 	for(int i = 0; i < n; ++i)
 		S += abs( area2(info[i], info[i + 1]) ) * sign( (info[i] ^ info[i + 1]) );
 	return fabs(S);

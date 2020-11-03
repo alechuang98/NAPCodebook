@@ -1,6 +1,3 @@
-#include<bits/stdc++.h>
-using namespace std;
-
 void build_fail_function(string B, int *fail) {
     int len = B.length(), pos;
     pos = fail[0] = -1;
