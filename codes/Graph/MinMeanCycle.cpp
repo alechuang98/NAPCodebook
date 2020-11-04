@@ -38,6 +38,7 @@ double karp_mmc() {
 		}
 		if (avg < mmc) tie(mmc, st) = tie(avg, i);
 	}
+	if (st == -1) { return inf; } //no cycle
 	for(int i=0; i<n; i++) vst[i] = 0;
 	edgeID.clear(); cycle.clear(); rho.clear();
 	for (int i=n; !vst[st]; st=prv[i--][st]) {

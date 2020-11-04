@@ -1,6 +1,6 @@
 colo ron
 syn on
 se ai ar nu rnu 
-se mouse=a bs=2 ts=4 sw=4 ttm=100
-au BufNewFile *.cpp 0r ~/default.cpp | :1,$-7 fo
+se mouse=a bs=2 ts=4 sw=4
+au BufNewFile *.cpp 0r ~/default.cpp
 filetype indent on

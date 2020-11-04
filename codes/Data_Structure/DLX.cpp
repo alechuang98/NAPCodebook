@@ -1,8 +1,8 @@
-int a[201][201];
+int a[ N ][ N ];
 struct DLX {
-	int L[MXN], R[MXN], U[MXN], D[MXN];
-	int rr[MXN], cc[MXN], S[MXN];
-	int re[MXN], bst[MXN], ans;
+	int L[N*N], R[N*N], U[N*N], D[N*N];
+	int rr[N*N], cc[N*N], S[N*N];
+	int re[N*N], bst[N*N], ans;
 	int n, m, cntp;
 	void init() {
 		for (int i = 0; i <= m; i++) {

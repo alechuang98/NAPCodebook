@@ -1,7 +1,7 @@
 //n * sqrt(q) on Mo's algorithm
 long long hilbert(int n, int x, int y) {
     long long res = 0;
-    for (int s = n / 2; s; s >>= 1) {
+    for (int s = 1 << lgn ; s; s >>= 1) {
         int rx = (x & s) > 0;
         int ry = (y & s) > 0;
         res += s * 1ll * s * ((3 * rx) ^ ry);
